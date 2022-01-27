@@ -1,0 +1,14 @@
+﻿  已复制         1 个文件。
+cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  iat_online_sample.c
+C:\Users\q7423\Desktop\doing\Windows_iat1226_316e9b7a\samples\iat_online_sample\iat_online_sample.c(34,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\q7423\Desktop\doing\Windows_iat1226_316e9b7a\samples\iat_online_sample\iat_online_sample.c(141,16): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\q7423\Desktop\doing\Windows_iat1226_316e9b7a\samples\iat_online_sample\iat_online_sample.c(85,1): warning C4047: “初始化”:“char”与“void *”的间接级别不同
+C:\Users\q7423\Desktop\doing\Windows_iat1226_316e9b7a\samples\iat_online_sample\iat_online_sample.c(86,1): warning C4047: “初始化”:“char”与“void *”的间接级别不同
+C:\Users\q7423\Desktop\doing\Windows_iat1226_316e9b7a\samples\iat_online_sample\iat_online_sample.c(103,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\q7423\Desktop\doing\Windows_iat1226_316e9b7a\samples\iat_online_sample\iat_online_sample.c(178,5): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\q7423\Desktop\doing\Windows_iat1226_316e9b7a\samples\iat_online_sample\iat_online_sample.c(210,4): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\q7423\Desktop\doing\Windows_iat1226_316e9b7a\samples\iat_online_sample\iat_online_sample.c(264,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+iat_online_sample.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  iat_online_sample.vcxproj -> C:\Users\q7423\Desktop\doing\Windows_iat1226_316e9b7a\samples\iat_online_sample\temp\output\Win32\Debug\iat_online_sample.exe
+  已复制         1 个文件。

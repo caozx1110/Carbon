@@ -1,0 +1,15 @@
+﻿  已复制         1 个文件。
+  awaken_sample.c
+C:\Users\q7423\Desktop\doing\Windows_awaken_exp1227_iat1226_316e9b7a\samples\awaken_sample\awaken_sample.c(38,10): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const void *”
+C:\Users\q7423\Desktop\doing\Windows_awaken_exp1227_iat1226_316e9b7a\samples\awaken_sample\awaken_sample.c(62,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\q7423\Desktop\doing\Windows_awaken_exp1227_iat1226_316e9b7a\samples\awaken_sample\awaken_sample.c(94,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\q7423\Desktop\doing\Windows_awaken_exp1227_iat1226_316e9b7a\samples\awaken_sample\awaken_sample.c(117,4): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\q7423\Desktop\doing\Windows_awaken_exp1227_iat1226_316e9b7a\samples\awaken_sample\awaken_sample.c(129,2): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\q7423\Desktop\doing\Windows_awaken_exp1227_iat1226_316e9b7a\samples\awaken_sample\awaken_sample.c(207,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\q7423\Desktop\doing\Windows_awaken_exp1227_iat1226_316e9b7a\samples\awaken_sample\awaken_sample.c(213,19): warning C4018: “>=”: 有符号/无符号不匹配
+C:\Users\q7423\Desktop\doing\Windows_awaken_exp1227_iat1226_316e9b7a\samples\awaken_sample\awaken_sample.c(190,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\q7423\Desktop\doing\Windows_awaken_exp1227_iat1226_316e9b7a\samples\awaken_sample\awaken_sample.c(228,4): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\q7423\Desktop\doing\Windows_awaken_exp1227_iat1226_316e9b7a\samples\awaken_sample\awaken_sample.c(242,2): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\q7423\Desktop\doing\Windows_awaken_exp1227_iat1226_316e9b7a\samples\awaken_sample\awaken_sample.c(271,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  awaken_sample.vcxproj -> C:\Users\q7423\Desktop\doing\Windows_awaken_exp1227_iat1226_316e9b7a\samples\Debug\awaken_sample.exe
+  已复制         1 个文件。

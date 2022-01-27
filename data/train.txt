@@ -1,0 +1,57 @@
+打开Anaconda
+打开Arduino
+打开desktop
+打开eclipse
+打开Excel
+打开Fritzing
+打开Git Bash
+打开Git GUI
+打开Halcon
+打开IDM
+打开Immersive Control Panel
+打开Keil
+打开Mathpix
+打开Matlab
+打开MeshLab
+打开Microsoft Edge
+打开Multisim
+打开notepad
+打开Octave
+打开OneNote
+打开PowerPoint
+打开PR
+打开PS
+打开Pulse Secure
+打开PyCharm
+打开Qt Creator
+打开Quartus
+打开RoboDK
+打开ScreenToGif
+打开Snipaste
+打开Steam
+打开STM32CubeMX
+打开Typora
+打开UartAssist
+打开Visual Studio Code
+打开Visual Studio
+打开WinRAR
+打开Word
+打开WPS Office
+打开三国群英传V
+打开佛跳墙
+打开华为手机助手
+打开向日葵
+打开微信
+打开我的世界
+打开杀毒软件
+打开格式工厂
+打开百度网盘
+打开网易云音乐
+打开网易有道词典
+打开网易邮箱大师
+打开联想电脑管家
+打开联想软件商店
+打开腾讯QQ
+打开腾讯会议
+打开迅雷
+打开饥荒联机版

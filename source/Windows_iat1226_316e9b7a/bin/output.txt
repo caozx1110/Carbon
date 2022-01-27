@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <xml_result>
+      <read_syllable lan="cn" type="study" version="6,5,0,1038">
+          <rec_paper>
+              <read_syllable beg_pos="0" content="¹û¡£·º¡£¿í¡£ÌÊ¡£¶ª¡£" end_pos="760" except_info="0" time_len="760" total_score="4.000000">
+                  <sentence beg_pos="0" content="¹û" end_pos="192" time_len="192">
+                      <word beg_pos="0" content="¹û" end_pos="192" symbol="guo3" time_len="192">
+                          <syll beg_pos="0" content="silv" dp_message="0" end_pos="139" time_len="139">
+                              <phone beg_pos="0" content="silv" dp_message="0" end_pos="139" time_len="139"></phone>
+                          </syll>
+                          <syll beg_pos="139" content="¹û" dp_message="0" end_pos="192" symbol="guo3" time_len="53">
+                              <phone beg_pos="139" content="g" dp_message="0" end_pos="151" is_yun="0" perr_level_msg="0" time_len="12"></phone>
+                              <phone beg_pos="151" content="uo" dp_message="0" end_pos="192" is_yun="1" mono_tone="TONE3" perr_level_msg="0" time_len="41"></phone>
+                          </syll>
+                      </word>
+                  </sentence>
+                  <sentence beg_pos="192" content="·º" end_pos="300" time_len="108">
+                      <word beg_pos="192" content="·º" end_pos="300" symbol="fan4" time_len="108">
+                          <syll beg_pos="192" content="sil" dp_message="0" end_pos="239" time_len="47">
+                              <phone beg_pos="192" content="sil" dp_message="0" end_pos="239" time_len="47"></phone>
+                          </syll>
+                          <syll beg_pos="239" content="·º" dp_message="0" end_pos="300" symbol="fan4" time_len="61">
+                              <phone beg_pos="239" content="f" dp_message="0" end_pos="270" is_yun="0" perr_level_msg="0" time_len="31"></phone>
+                              <phone beg_pos="270" content="an" dp_message="0" end_pos="300" is_yun="1" mono_tone="TONE4" perr_level_msg="0" time_len="30"></phone>
+                          </syll>
+                      </word>
+                  </sentence>
+                  <sentence beg_pos="300" content="¿í" end_pos="439" time_len="139">
+                      <word beg_pos="300" content="¿í" end_pos="439" symbol="kuan1" time_len="139">
+                          <syll beg_pos="300" content="sil" dp_message="0" end_pos="387" time_len="87">
+                              <phone beg_pos="300" content="sil" dp_message="0" end_pos="387" time_len="87"></phone>
+                          </syll>
+                          <syll beg_pos="387" content="¿í" dp_message="0" end_pos="439" symbol="kuan1" time_len="52">
+                              <phone beg_pos="387" content="k" dp_message="0" end_pos="403" is_yun="0" perr_level_msg="0" time_len="16"></phone>
+                              <phone beg_pos="403" content="uan" dp_message="0" end_pos="439" is_yun="1" mono_tone="TONE1" perr_level_msg="0" time_len="36"></phone>
+                          </syll>
+                      </word>
+                  </sentence>
+                  <sentence beg_pos="439" content="ÌÊ" end_pos="559" time_len="120">
+                      <word beg_pos="439" content="ÌÊ" end_pos="559" symbol="tang3" time_len="120">
+                          <syll beg_pos="439" content="sil" dp_message="0" end_pos="506" time_len="67">
+                              <phone beg_pos="439" content="sil" dp_message="0" end_pos="506" time_len="67"></phone>
+                          </syll>
+                          <syll beg_pos="506" content="ÌÊ" dp_message="0" end_pos="559" symbol="tang3" time_len="53">
+                              <phone beg_pos="506" content="t" dp_message="0" end_pos="519" is_yun="0" perr_level_msg="0" time_len="13"></phone>
+                              <phone beg_pos="519" content="ang" dp_message="0" end_pos="559" is_yun="1" mono_tone="TONE3" perr_level_msg="0" time_len="40"></phone>
+                          </syll>
+                      </word>
+                  </sentence>
+                  <sentence beg_pos="559" content="¶ª" end_pos="760" time_len="201">
+                      <word beg_pos="559" content="¶ª" end_pos="760" symbol="diu1" time_len="201">
+                          <syll beg_pos="559" content="sil" dp_message="0" end_pos="624" time_len="65">
+                              <phone beg_pos="559" content="sil" dp_message="0" end_pos="624" time_len="65"></phone>
+                          </syll>
+                          <syll beg_pos="624" content="¶ª" dp_message="0" end_pos="665" symbol="diu1" time_len="41">
+                              <phone beg_pos="624" content="d" dp_message="0" end_pos="634" is_yun="0" perr_level_msg="0" time_len="10"></phone>
+                              <phone beg_pos="634" content="iou" dp_message="0" end_pos="665" is_yun="1" mono_tone="TONE1" perr_level_msg="0" time_len="31"></phone>
+                          </syll>
+                          <syll beg_pos="665" content="sil" dp_message="0" end_pos="760" time_len="95">
+                              <phone beg_pos="665" content="sil" end_pos="760" time_len="95"></phone>
+                          </syll>
+                      </word>
+                  </sentence>
+              </read_syllable>
+          </rec_paper>
+          <rec_tree>
+              <read_syllable beg_pos="0" content="¹û¡£·º¡£¿í¡£ÌÊ¡£¶ª¡£" end_pos="760" time_len="760">
+                  <sentence beg_pos="0" content="¹û" end_pos="192" time_len="192">
+                      <word beg_pos="0" content="¹û" end_pos="192" symbol="guo3" time_len="192">
+                          <syll beg_pos="0" content="silv" dp_message="0" end_pos="139" time_len="139">
+                              <phone beg_pos="0" content="silv" dp_message="0" end_pos="139" time_len="139"></phone>
+                          </syll>
+                          <syll beg_pos="139" content="¹û" dp_message="0" end_pos="192" symbol="guo3" time_len="53">
+                              <phone beg_pos="139" content="g" dp_message="0" end_pos="151" is_yun="0" perr_level_msg="0" time_len="12"></phone>
+                              <phone beg_pos="151" content="uo" dp_message="0" end_pos="192" is_yun="1" mono_tone="TONE3" perr_level_msg="0" time_len="41"></phone>
+                          </syll>
+                      </word>
+                  </sentence>
+                  <sentence beg_pos="192" content="·º" end_pos="300" time_len="108">
+                      <word beg_pos="192" content="·º" end_pos="300" symbol="fan4" time_len="108">
+                          <syll beg_pos="192" content="sil" dp_message="0" end_pos="239" time_len="47">
+                              <phone beg_pos="192" content="sil" dp_message="0" end_pos="239" time_len="47"></phone>
+                          </syll>
+                          <syll beg_pos="239" content="·º" dp_message="0" end_pos="300" symbol="fan4" time_len="61">
+                              <phone beg_pos="239" content="f" dp_message="0" end_pos="270" is_yun="0" perr_level_msg="0" time_len="31"></phone>
+                              <phone beg_pos="270" content="an" dp_message="0" end_pos="300" is_yun="1" mono_tone="TONE4" perr_level_msg="0" time_len="30"></phone>
+                          </syll>
+                      </word>
+                  </sentence>
+                  <sentence beg_pos="300" content="¿í" end_pos="439" time_len="139">
+                      <word beg_pos="300" content="¿í" end_pos="439" symbol="kuan1" time_len="139">
+                          <syll beg_pos="300" content="sil" dp_message="0" end_pos="387" time_len="87">
+                              <phone beg_pos="300" content="sil" dp_message="0" end_pos="387" time_len="87"></phone>
+                          </syll>
+                          <syll beg_pos="387" content="¿í" dp_message="0" end_pos="439" symbol="kuan1" time_len="52">
+                              <phone beg_pos="387" content="k" dp_message="0" end_pos="403" is_yun="0" perr_level_msg="0" time_len="16"></phone>
+                              <phone beg_pos="403" content="uan" dp_message="0" end_pos="439" is_yun="1" mono_tone="TONE1" perr_level_msg="0" time_len="36"></phone>
+                          </syll>
+                      </word>
+                  </sentence>
+                  <sentence beg_pos="439" content="ÌÊ" end_pos="559" time_len="120">
+                      <word beg_pos="439" content="ÌÊ" end_pos="559" symbol="tang3" time_len="120">
+                          <syll beg_pos="439" content="sil" dp_message="0" end_pos="506" time_len="67">
+                              <phone beg_pos="439" content="sil" dp_message="0" end_pos="506" time_len="67"></phone>
+                          </syll>
+                          <syll beg_pos="506" content="ÌÊ" dp_message="0" end_pos="559" symbol="tang3" time_len="53">
+                              <phone beg_pos="506" content="t" dp_message="0" end_pos="519" is_yun="0" perr_level_msg="0" time_len="13"></phone>
+                              <phone beg_pos="519" content="ang" dp_message="0" end_pos="559" is_yun="1" mono_tone="TONE3" perr_level_msg="0" time_len="40"></phone>
+                          </syll>
+                      </word>
+                  </sentence>
+                  <sentence beg_pos="559" content="¶ª" end_pos="760" time_len="201">
+                      <word beg_pos="559" content="¶ª" end_pos="760" symbol="diu1" time_len="201">
+                          <syll beg_pos="559" content="sil" dp_message="0" end_pos="624" time_len="65">
+                              <phone beg_pos="559" content="sil" dp_message="0" end_pos="624" time_len="65"></phone>
+                          </syll>
+                          <syll beg_pos="624" content="¶ª" dp_message="0" end_pos="665" symbol="diu1" time_len="41">
+                              <phone beg_pos="624" content="d" dp_message="0" end_pos="634" is_yun="0" perr_level_msg="0" time_len="10"></phone>
+                              <phone beg_pos="634" content="iou" dp_message="0" end_pos="665" is_yun="1" mono_tone="TONE1" perr_level_msg="0" time_len="31"></phone>
+                          </syll>
+                          <syll beg_pos="665" content="sil" dp_message="0" end_pos="760" time_len="95">
+                              <phone beg_pos="665" content="sil" end_pos="760" time_len="95"></phone>
+                          </syll>
+                      </word>
+                  </sentence>
+              </read_syllable>
+          </rec_tree>
+      </read_syllable>
+  </xml_result>

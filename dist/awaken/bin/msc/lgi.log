@@ -1,0 +1,1987 @@
+============================================================
+Time  2021/07/29 10:19:50 940 
+============================================================
+[2021/07/29 10:19:50 940] lgi        684  SYS_MSG_LOAD  
+[2021/07/29 10:19:50 940] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(2880e88) 
+[2021/07/29 10:19:50 940] lgi        298  LGI_MSG_INIT  
+[2021/07/29 10:19:50 950] lgi        305  lgi  lgi_  268436457  1552301824  
+[2021/07/29 10:19:50 950] lgi        347  work_dir  .  
+[2021/07/29 10:19:50 950] lgi        403  token:  nil  
+[2021/07/29 10:19:50 950] lgi        476  msc cver : 5.0.42.1226  
+[2021/07/29 10:19:50 950] lgi        519  ns_enable=  1  
+[2021/07/29 10:19:50 950] lgi        531  prot_ver=1  
+[2021/07/29 10:19:50 950] lgi        542  prot_type=tcp  
+[2021/07/29 10:19:50 950] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2021/07/29 10:19:58 420] lgi        598  LGI_MSG_START, caller =  legacyuup_47ffd2  
+[2021/07/29 10:19:58 420] lgi        604  lgistat =   0  
+[2021/07/29 10:19:58 420] lgi        630  lgi_auth_id =  nil  
+[2021/07/29 10:19:58 420] config     91   select default  
+[2021/07/29 10:19:58 420] config     113  use general cloud  
+[2021/07/29 10:19:58 420] transport  645  paramkvsport is   0  
+[2021/07/29 10:19:58 420] transport  657  ns_enable=  1  
+[2021/07/29 10:19:58 420] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2021/07/29 10:19:58 420] transport  665  net.nettype=  unknown  
+[2021/07/29 10:19:58 420] transport  675  url.full=  nil  
+[2021/07/29 10:19:58 420] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2021/07/29 10:19:58 420] transport  907  net type:  unknown  
+[2021/07/29 10:19:58 420] transport  908  net operator:  def  
+[2021/07/29 10:19:58 420] transport  909  use proxy:  false  
+[2021/07/29 10:19:58 420] lgi        277  [session] send lgi request  
+[2021/07/29 10:19:58 420] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:19:58 420] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:19:58 420] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:19:58 420] transport  1179 try preferred port:  nil  
+[2021/07/29 10:19:58 420] transport  1083 NAMESERVER START  
+[2021/07/29 10:19:58 420] transport  1086 name =   ath  
+[2021/07/29 10:19:58 420] ns         634  ntt=  unknown  
+[2021/07/29 10:19:58 420] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:19:58 420] ns         582  name server start  
+[2021/07/29 10:19:58 420] ns         588  ns_sub =   ath  
+[2021/07/29 10:19:58 420] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:19:58 420] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:19:58 420] ns         555  net_type =  standard  
+[2021/07/29 10:19:58 420] ns         556  cmwapascmnet =  
+[2021/07/29 10:19:58 420] ns         557  uniwapasuninet =  
+[2021/07/29 10:19:58 420] ns         558  ctwapasctnet =  
+[2021/07/29 10:19:58 420] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:19:58 420] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2021/07/29 10:19:58 420] lgi        244  lver:  nil  
+[2021/07/29 10:19:58 420] lgi        249  cfg_ver:  nil  
+[2021/07/29 10:19:58 420] transport  1860 transport_obj.send | in  
+[2021/07/29 10:19:58 420] transport  1866 self.msg_flag_q  table(ebc748) 
+[2021/07/29 10:19:58 420] transport  1867 self.msg_q  table(2837a60) 
+[2021/07/29 10:19:58 420] transport  1799 transport_obj.try2send | in  
+[2021/07/29 10:19:58 420] transport  1800 self.soc  nil  
+[2021/07/29 10:19:58 420] transport  1801 self.connected  false  
+[2021/07/29 10:19:58 420] transport  1802 self.latesterr  0  
+[2021/07/29 10:19:58 420] transport  1873 transport_obj.send | out  
+[2021/07/29 10:19:58 509] network    245  dns resp  0  ns1  
+[2021/07/29 10:19:58 509] ns         422  ns dns ok  42.62.116.18  
+[2021/07/29 10:19:58 509] ns         202  iplist not avail  
+[2021/07/29 10:19:58 519] ns         429  is_voicecloud_ip=  0  
+[2021/07/29 10:19:58 519] ns         436  ip_is_expected=  true  
+[2021/07/29 10:19:58 519] ns         444  ip_is_expected=  true  
+[2021/07/29 10:19:58 519] network    445  gethttpresp2  42.62.116.18  80  ns2  
+[2021/07/29 10:19:58 519] network    465  prot_type  tcp  
+[2021/07/29 10:19:58 549] transport  194  [dns] [1] response 42.62.116.18  
+[2021/07/29 10:19:58 549] transport  202  42  62  116  18  
+[2021/07/29 10:19:58 549] transport  204  ipv =  v4  
+[2021/07/29 10:19:58 549] transport  208  dns ip is v4  
+[2021/07/29 10:19:58 549] transport  130  iplist not avail  
+[2021/07/29 10:19:58 549] transport  247  no iplist now  
+[2021/07/29 10:19:58 549] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.18  
+[2021/07/29 10:19:58 549] transport  291  dns cb start conn  
+[2021/07/29 10:19:58 559] transport  1304 [soc] connect   42.62.116.18  1028  
+[2021/07/29 10:19:58 559] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:19:58 579] network    350  connected  ns2  
+[2021/07/29 10:19:58 579] network    353  send ok  268  ns2  
+[2021/07/29 10:19:58 619] transport  473  [soc] [1] connected  
+[2021/07/29 10:19:58 619] transport  1799 transport_obj.try2send | in  
+[2021/07/29 10:19:58 619] transport  1800 self.soc  udata(285afa8) 
+[2021/07/29 10:19:58 619] transport  1801 self.connected  true  
+[2021/07/29 10:19:58 619] transport  1802 self.latesterr  0  
+[2021/07/29 10:19:58 619] transport  1819 transport:try2send,#msg_q=  1  
+[2021/07/29 10:19:58 619] transport  1359 build http request.  
+[2021/07/29 10:19:58 619] transport  1476 POST /msp.do HTTP/1.1
+X-Sub: auth
+X-Par: ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E0%2E42%2E1226&key=08UiXGm^j92hM=
+Host: open.xf-yun.com
+CT: multipart/mixed;boundary=--
+CL: 323
+
+----
+Content-Length:56
+Content-Type:text/appinfo
+Content-Encoding:gzip,encrypt/0.2
+
+Ñ¾b<`úž‡~}y~~~‡{|xz2A`¡á¿¿`~¿ 3ê³8  
+[2021/07/29 10:19:58 619] transport  1819 transport:try2send,#msg_q=  0  
+[2021/07/29 10:19:58 619] transport  482  [soc] [1] send ok  508  
+[2021/07/29 10:19:58 619] transport  1799 transport_obj.try2send | in  
+[2021/07/29 10:19:58 619] transport  1800 self.soc  udata(285afa8) 
+[2021/07/29 10:19:58 619] transport  1801 self.connected  true  
+[2021/07/29 10:19:58 619] transport  1802 self.latesterr  0  
+[2021/07/29 10:19:58 619] transport  1819 transport:try2send,#msg_q=  0  
+[2021/07/29 10:19:58 660] network    362  readable  ns2  
+[2021/07/29 10:19:58 660] network    366  HTTP/1.1 200 OK
+Date: Thu, 29 Jul 2021 02:19:55 GMT
+Content-Type: application/json
+Content-Length: 307
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.42.10","port":1028,"idc":"dx"},{"ip":"42.62.42.18","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.42.18","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}]}  
+[2021/07/29 10:19:58 660] ns         253  name server http resp  0  
+[2021/07/29 10:19:58 660] ns         266  ns response OK for this time!  
+[2021/07/29 10:19:58 660] ns         277  from_server=  iflytek/hdns  
+[2021/07/29 10:19:58 660] ns         360  compel :  0  
+[2021/07/29 10:19:58 660] transport  1063 ns_ip =   42.62.42.10  
+[2021/07/29 10:19:58 660] transport  1064 ip_type =  assigned_athopen.xf-yun.com_host  
+[2021/07/29 10:19:58 660] ns         670  no data in ns_q  
+[2021/07/29 10:19:58 660] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:19:58 730] transport  494  [soc] [1] readable  
+[2021/07/29 10:19:58 730] transport  1767 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2021/07/29 10:19:55 276
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E42%2E1226&uid=d16603379252&key=0bXKVUwm2r^8qoCWcR0b7w0/6CwxNjWFJnaH/UFaaBZSu^^GHVr44O7LNHyK2Rukk4UUEflAKO4MhPt9ofqQ7s4k^32h^pDuzi
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2021/07/29 10:19:55 295
+
+0  
+[2021/07/29 10:19:58 730] transport  1494 a_complete_httpmessage  200  
+[2021/07/29 10:19:58 730] transport  1604 is_update  false  
+[2021/07/29 10:19:58 730] lgi        105  [trans] [id = lgi_] readable  
+[2021/07/29 10:19:58 730] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.18  
+[2021/07/29 10:19:58 730] transport  981  cached ip is confirmed  
+[2021/07/29 10:19:58 730] transport  1332 [soc] disconnect   
+[2021/07/29 10:19:58 730] transport  991  transport clean  
+[2021/07/29 10:19:58 730] lgi        136  lgi resp!  
+[2021/07/29 10:19:58 730] lgi        143  lgi ok!  
+[2021/07/29 10:19:58 730] lgi        151  unkown  d16603379252  
+[2021/07/29 10:19:58 730] lgi        72   loginid =   1  d16603379252  
+[2021/07/29 10:19:58 730] lgi        75   notify_lgi_result, ret = 0  
+[2021/07/29 10:20:07 973] lgi        598  LGI_MSG_START, caller =  cloud_cisr1PdHHBHJmJHynaMRaaHv2B7c0b8BcY  
+[2021/07/29 10:20:07 973] lgi        604  lgistat =   2  
+[2021/07/29 10:20:13 743] lgi        100  lgi_delaydie_timeout  
+============================================================
+Time  2021/07/29 10:31:54 023 
+============================================================
+[2021/07/29 10:31:54 023] lgi        684  SYS_MSG_LOAD  
+[2021/07/29 10:31:54 025] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(2dc0e08) 
+[2021/07/29 10:31:54 025] lgi        298  LGI_MSG_INIT  
+[2021/07/29 10:31:54 025] lgi        305  lgi  lgi_  268436457  1552301824  
+[2021/07/29 10:31:54 026] lgi        347  work_dir  .  
+[2021/07/29 10:31:54 026] lgi        403  token:  nil  
+[2021/07/29 10:31:54 026] lgi        476  msc cver : 5.0.42.1226  
+[2021/07/29 10:31:54 026] lgi        519  ns_enable=  1  
+[2021/07/29 10:31:54 026] lgi        531  prot_ver=1  
+[2021/07/29 10:31:54 026] lgi        542  prot_type=tcp  
+[2021/07/29 10:31:54 026] lgi        693  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2021/07/29 10:32:31 474 
+============================================================
+[2021/07/29 10:32:31 474] lgi        684  SYS_MSG_LOAD  
+[2021/07/29 10:32:31 474] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(25a6a18) 
+[2021/07/29 10:32:31 474] lgi        298  LGI_MSG_INIT  
+[2021/07/29 10:32:31 474] lgi        305  lgi  lgi_  268436457  1552301824  
+[2021/07/29 10:32:31 474] lgi        347  work_dir  .  
+[2021/07/29 10:32:31 474] lgi        403  token:  nil  
+[2021/07/29 10:32:31 474] lgi        476  msc cver : 5.0.42.1226  
+[2021/07/29 10:32:31 474] lgi        519  ns_enable=  1  
+[2021/07/29 10:32:31 474] lgi        531  prot_ver=1  
+[2021/07/29 10:32:31 474] lgi        542  prot_type=tcp  
+[2021/07/29 10:32:31 474] lgi        693  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2021/07/29 10:33:08 599 
+============================================================
+[2021/07/29 10:33:08 599] lgi        684  SYS_MSG_LOAD  
+[2021/07/29 10:33:08 599] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(d61248) 
+[2021/07/29 10:33:08 599] lgi        298  LGI_MSG_INIT  
+[2021/07/29 10:33:08 599] lgi        305  lgi  lgi_  268436457  1552301824  
+[2021/07/29 10:33:08 599] lgi        347  work_dir  .  
+[2021/07/29 10:33:08 599] lgi        403  token:  nil  
+[2021/07/29 10:33:08 599] lgi        476  msc cver : 5.0.42.1226  
+[2021/07/29 10:33:08 599] lgi        519  ns_enable=  1  
+[2021/07/29 10:33:08 599] lgi        531  prot_ver=1  
+[2021/07/29 10:33:08 599] lgi        542  prot_type=tcp  
+[2021/07/29 10:33:08 599] lgi        693  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2021/07/29 10:33:37 710 
+============================================================
+[2021/07/29 10:33:37 710] lgi        684  SYS_MSG_LOAD  
+[2021/07/29 10:33:37 710] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(16df990) 
+[2021/07/29 10:33:37 710] lgi        298  LGI_MSG_INIT  
+[2021/07/29 10:33:37 710] lgi        305  lgi  lgi_  268436457  1552301824  
+[2021/07/29 10:33:37 710] lgi        347  work_dir  .  
+[2021/07/29 10:33:37 710] lgi        403  token:  nil  
+[2021/07/29 10:33:37 710] lgi        476  msc cver : 5.0.42.1226  
+[2021/07/29 10:33:37 717] lgi        519  ns_enable=  1  
+[2021/07/29 10:33:37 717] lgi        531  prot_ver=1  
+[2021/07/29 10:33:37 717] lgi        542  prot_type=tcp  
+[2021/07/29 10:33:37 717] lgi        693  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2021/07/29 10:34:49 256 
+============================================================
+[2021/07/29 10:34:49 256] lgi        684  SYS_MSG_LOAD  
+[2021/07/29 10:34:49 256] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(2850748) 
+[2021/07/29 10:34:49 256] lgi        298  LGI_MSG_INIT  
+[2021/07/29 10:34:49 256] lgi        305  lgi  lgi_  268436457  1552301824  
+[2021/07/29 10:34:49 256] lgi        347  work_dir  .  
+[2021/07/29 10:34:49 256] lgi        403  token:  nil  
+[2021/07/29 10:34:49 256] lgi        476  msc cver : 5.0.42.1226  
+[2021/07/29 10:34:49 256] lgi        519  ns_enable=  1  
+[2021/07/29 10:34:49 256] lgi        531  prot_ver=1  
+[2021/07/29 10:34:49 256] lgi        542  prot_type=tcp  
+[2021/07/29 10:34:49 256] lgi        693  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2021/07/29 10:35:10 318 
+============================================================
+[2021/07/29 10:35:10 318] lgi        684  SYS_MSG_LOAD  
+[2021/07/29 10:35:10 318] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(e90908) 
+[2021/07/29 10:35:10 318] lgi        298  LGI_MSG_INIT  
+[2021/07/29 10:35:10 318] lgi        305  lgi  lgi_  268436457  1552301824  
+[2021/07/29 10:35:10 318] lgi        347  work_dir  .  
+[2021/07/29 10:35:10 318] lgi        403  token:  nil  
+[2021/07/29 10:35:10 318] lgi        476  msc cver : 5.0.42.1226  
+[2021/07/29 10:35:10 318] lgi        519  ns_enable=  1  
+[2021/07/29 10:35:10 318] lgi        531  prot_ver=1  
+[2021/07/29 10:35:10 318] lgi        542  prot_type=tcp  
+[2021/07/29 10:35:10 318] lgi        693  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2021/07/29 10:35:30 368 
+============================================================
+[2021/07/29 10:35:30 368] lgi        684  SYS_MSG_LOAD  
+[2021/07/29 10:35:30 368] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(2b60888) 
+[2021/07/29 10:35:30 368] lgi        298  LGI_MSG_INIT  
+[2021/07/29 10:35:30 368] lgi        305  lgi  lgi_  268436457  1552301824  
+[2021/07/29 10:35:30 368] lgi        347  work_dir  .  
+[2021/07/29 10:35:30 368] lgi        403  token:  nil  
+[2021/07/29 10:35:30 368] lgi        476  msc cver : 5.0.42.1226  
+[2021/07/29 10:35:30 368] lgi        519  ns_enable=  1  
+[2021/07/29 10:35:30 368] lgi        531  prot_ver=1  
+[2021/07/29 10:35:30 368] lgi        542  prot_type=tcp  
+[2021/07/29 10:35:30 368] lgi        693  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2021/07/29 10:39:27 082 
+============================================================
+[2021/07/29 10:39:27 082] lgi        684  SYS_MSG_LOAD  
+[2021/07/29 10:39:27 082] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(3090c08) 
+[2021/07/29 10:39:27 082] lgi        298  LGI_MSG_INIT  
+[2021/07/29 10:39:27 082] lgi        305  lgi  lgi_  268436457  1552301824  
+[2021/07/29 10:39:27 082] lgi        347  work_dir  .  
+[2021/07/29 10:39:27 082] lgi        403  token:  nil  
+[2021/07/29 10:39:27 082] lgi        476  msc cver : 5.0.42.1226  
+[2021/07/29 10:39:27 085] lgi        519  ns_enable=  1  
+[2021/07/29 10:39:27 085] lgi        531  prot_ver=1  
+[2021/07/29 10:39:27 085] lgi        542  prot_type=tcp  
+[2021/07/29 10:39:27 085] lgi        693  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2021/07/29 10:40:24 696 
+============================================================
+[2021/07/29 10:40:24 697] lgi        684  SYS_MSG_LOAD  
+[2021/07/29 10:40:24 700] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(30a0608) 
+[2021/07/29 10:40:24 700] lgi        298  LGI_MSG_INIT  
+[2021/07/29 10:40:24 700] lgi        305  lgi  lgi_  268436457  1552301824  
+[2021/07/29 10:40:24 700] lgi        347  work_dir  .  
+[2021/07/29 10:40:24 700] lgi        403  token:  nil  
+[2021/07/29 10:40:24 700] lgi        476  msc cver : 5.0.42.1226  
+[2021/07/29 10:40:24 701] lgi        519  ns_enable=  1  
+[2021/07/29 10:40:24 701] lgi        531  prot_ver=1  
+[2021/07/29 10:40:24 701] lgi        542  prot_type=tcp  
+[2021/07/29 10:40:24 703] lgi        693  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2021/07/29 10:41:02 720 
+============================================================
+[2021/07/29 10:41:02 720] lgi        684  SYS_MSG_LOAD  
+[2021/07/29 10:41:02 720] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(31a2940) 
+[2021/07/29 10:41:02 720] lgi        298  LGI_MSG_INIT  
+[2021/07/29 10:41:02 720] lgi        305  lgi  lgi_  268436457  1552301824  
+[2021/07/29 10:41:02 720] lgi        347  work_dir  .  
+[2021/07/29 10:41:02 720] lgi        403  token:  nil  
+[2021/07/29 10:41:02 720] lgi        476  msc cver : 5.0.42.1226  
+[2021/07/29 10:41:02 730] lgi        519  ns_enable=  1  
+[2021/07/29 10:41:02 730] lgi        531  prot_ver=1  
+[2021/07/29 10:41:02 730] lgi        542  prot_type=tcp  
+[2021/07/29 10:41:02 730] lgi        693  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2021/07/29 10:41:32 394 
+============================================================
+[2021/07/29 10:41:32 395] lgi        684  SYS_MSG_LOAD  
+[2021/07/29 10:41:32 395] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(30e0a88) 
+[2021/07/29 10:41:32 397] lgi        298  LGI_MSG_INIT  
+[2021/07/29 10:41:32 397] lgi        305  lgi  lgi_  268436457  1552301824  
+[2021/07/29 10:41:32 397] lgi        347  work_dir  .  
+[2021/07/29 10:41:32 397] lgi        403  token:  nil  
+[2021/07/29 10:41:32 397] lgi        476  msc cver : 5.0.42.1226  
+[2021/07/29 10:41:32 397] lgi        519  ns_enable=  1  
+[2021/07/29 10:41:32 397] lgi        531  prot_ver=1  
+[2021/07/29 10:41:32 397] lgi        542  prot_type=tcp  
+[2021/07/29 10:41:32 398] lgi        693  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2021/07/29 10:43:54 151 
+============================================================
+[2021/07/29 10:43:54 151] lgi        684  SYS_MSG_LOAD  
+[2021/07/29 10:43:54 151] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(31b0848) 
+[2021/07/29 10:43:54 151] lgi        298  LGI_MSG_INIT  
+[2021/07/29 10:43:54 151] lgi        305  lgi  lgi_  268436457  1552301824  
+[2021/07/29 10:43:54 151] lgi        347  work_dir  .  
+[2021/07/29 10:43:54 151] lgi        403  token:  nil  
+[2021/07/29 10:43:54 151] lgi        476  msc cver : 5.0.42.1226  
+[2021/07/29 10:43:54 151] lgi        519  ns_enable=  1  
+[2021/07/29 10:43:54 151] lgi        531  prot_ver=1  
+[2021/07/29 10:43:54 151] lgi        542  prot_type=tcp  
+[2021/07/29 10:43:54 151] lgi        693  SYS_MSG_UNLOAD  go bg!  
+============================================================
+Time  2021/07/29 10:44:12 684 
+============================================================
+[2021/07/29 10:44:12 684] lgi        684  SYS_MSG_LOAD  
+[2021/07/29 10:44:12 684] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(2d90b08) 
+[2021/07/29 10:44:12 684] lgi        298  LGI_MSG_INIT  
+[2021/07/29 10:44:12 684] lgi        305  lgi  lgi_  268436457  1552301824  
+[2021/07/29 10:44:12 684] lgi        347  work_dir  .  
+[2021/07/29 10:44:12 684] lgi        403  token:  nil  
+[2021/07/29 10:44:12 684] lgi        476  msc cver : 5.0.42.1226  
+[2021/07/29 10:44:12 684] lgi        519  ns_enable=  1  
+[2021/07/29 10:44:12 684] lgi        531  prot_ver=1  
+[2021/07/29 10:44:12 684] lgi        542  prot_type=tcp  
+[2021/07/29 10:44:12 684] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2021/07/29 10:44:22 714] lgi        598  LGI_MSG_START, caller =  cloud_cisr1PdHHBHJmJNPyIxBaaCKflSrBgTu8K  
+[2021/07/29 10:44:22 714] lgi        604  lgistat =   0  
+[2021/07/29 10:44:22 714] lgi        630  lgi_auth_id =  nil  
+[2021/07/29 10:44:22 720] config     91   select default  
+[2021/07/29 10:44:22 720] config     113  use general cloud  
+[2021/07/29 10:44:22 720] transport  645  paramkvsport is   0  
+[2021/07/29 10:44:22 720] transport  657  ns_enable=  1  
+[2021/07/29 10:44:22 720] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2021/07/29 10:44:22 720] transport  665  net.nettype=  unknown  
+[2021/07/29 10:44:22 721] transport  675  url.full=  nil  
+[2021/07/29 10:44:22 721] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2021/07/29 10:44:22 721] transport  907  net type:  unknown  
+[2021/07/29 10:44:22 721] transport  908  net operator:  def  
+[2021/07/29 10:44:22 721] transport  909  use proxy:  false  
+[2021/07/29 10:44:22 721] lgi        277  [session] send lgi request  
+[2021/07/29 10:44:22 721] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:22 723] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:22 723] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:22 723] transport  1086 name =   ath  
+[2021/07/29 10:44:22 723] ns         634  ntt=  unknown  
+[2021/07/29 10:44:22 723] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:22 723] ns         582  name server start  
+[2021/07/29 10:44:22 723] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:22 723] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:22 723] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:22 723] ns         555  net_type =  standard  
+[2021/07/29 10:44:22 723] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:22 723] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:22 723] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:22 723] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:22 723] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2021/07/29 10:44:22 724] lgi        244  lver:  nil  
+[2021/07/29 10:44:22 724] lgi        249  cfg_ver:  nil  
+[2021/07/29 10:44:22 724] transport  1860 transport_obj.send | in  
+[2021/07/29 10:44:22 724] transport  1866 self.msg_flag_q  table(43f7850) 
+[2021/07/29 10:44:22 724] transport  1867 self.msg_q  table(43f7970) 
+[2021/07/29 10:44:22 726] transport  1799 transport_obj.try2send | in  
+[2021/07/29 10:44:22 726] transport  1800 self.soc  nil  
+[2021/07/29 10:44:22 726] transport  1801 self.connected  false  
+[2021/07/29 10:44:22 726] transport  1802 self.latesterr  0  
+[2021/07/29 10:44:22 726] transport  1873 transport_obj.send | out  
+[2021/07/29 10:44:22 733] network    245  dns resp  10214  ns1  
+[2021/07/29 10:44:22 733] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:22 733] network    445  gethttpresp2  117.121.48.5  80  ns2  
+[2021/07/29 10:44:22 733] network    465  prot_type  tcp  
+[2021/07/29 10:44:22 736] transport  296  [dns] [1] failed! 10214  
+[2021/07/29 10:44:22 737] transport  77   dns_failed  
+[2021/07/29 10:44:22 737] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:22 737] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:22 737] transport  1304 [soc] connect   42.62.116.18  1028  
+[2021/07/29 10:44:22 739] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:22 740] network    418  soc error  10202  ns2  
+[2021/07/29 10:44:22 740] ns         253  name server http resp  10202  
+[2021/07/29 10:44:22 740] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:22 740] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:22 740] ns         116  use default ip  
+[2021/07/29 10:44:22 742] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:22 742] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:22 742] ns         670  no data in ns_q  
+[2021/07/29 10:44:22 742] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:22 742] transport  542  MSC:[soc] [1] error 10202 10065!  
+[2021/07/29 10:44:22 743] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:22 743] transport  342  soc_conn_failed  
+[2021/07/29 10:44:22 743] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:22 743] transport  416  switch 80  
+[2021/07/29 10:44:22 744] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:23 756] transport  330  soc_10202_wait  
+[2021/07/29 10:44:23 756] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:23 756] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:23 756] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:23 756] transport  1086 name =   ath  
+[2021/07/29 10:44:23 756] ns         634  ntt=  unknown  
+[2021/07/29 10:44:23 757] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:23 757] ns         582  name server start  
+[2021/07/29 10:44:23 757] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:23 757] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:23 757] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:23 757] ns         555  net_type =  standard  
+[2021/07/29 10:44:23 757] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:23 757] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:23 757] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:23 757] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:23 757] network    263  gethostbyname  hdns.xf-yun.com  ns3  
+[2021/07/29 10:44:23 759] network    245  dns resp  10214  ns3  
+[2021/07/29 10:44:23 759] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:23 759] network    445  gethttpresp2  117.121.48.5  80  ns4  
+[2021/07/29 10:44:23 760] network    465  prot_type  tcp  
+[2021/07/29 10:44:23 763] transport  296  [dns] [1] failed! 10214  
+[2021/07/29 10:44:23 763] transport  77   dns_failed  
+[2021/07/29 10:44:23 763] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:23 763] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:23 763] transport  1304 [soc] connect   42.62.116.18  1028  
+[2021/07/29 10:44:23 763] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:23 765] network    418  soc error  10202  ns4  
+[2021/07/29 10:44:23 766] ns         253  name server http resp  10202  
+[2021/07/29 10:44:23 766] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:23 766] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:23 766] ns         116  use default ip  
+[2021/07/29 10:44:23 766] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:23 766] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:23 766] ns         670  no data in ns_q  
+[2021/07/29 10:44:23 766] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:23 766] transport  542  MSC:[soc] [1] error 10202 10065!  
+[2021/07/29 10:44:23 766] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:23 766] transport  342  soc_conn_failed  
+[2021/07/29 10:44:23 766] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:23 769] transport  416  switch 80  
+[2021/07/29 10:44:23 769] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:24 783] transport  330  soc_10202_wait  
+[2021/07/29 10:44:24 783] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:24 783] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:24 783] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:24 783] transport  1086 name =   ath  
+[2021/07/29 10:44:24 785] ns         634  ntt=  unknown  
+[2021/07/29 10:44:24 785] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:24 785] ns         582  name server start  
+[2021/07/29 10:44:24 785] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:24 785] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:24 785] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:24 785] ns         555  net_type =  standard  
+[2021/07/29 10:44:24 785] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:24 785] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:24 786] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:24 786] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:24 786] network    263  gethostbyname  hdns.xf-yun.com  ns5  
+[2021/07/29 10:44:24 786] network    245  dns resp  10214  ns5  
+[2021/07/29 10:44:24 786] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:24 786] network    445  gethttpresp2  117.121.48.5  80  ns6  
+[2021/07/29 10:44:24 786] network    465  prot_type  tcp  
+[2021/07/29 10:44:24 789] transport  296  [dns] [1] failed! 10214  
+[2021/07/29 10:44:24 789] transport  77   dns_failed  
+[2021/07/29 10:44:24 790] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:24 790] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:24 792] transport  1304 [soc] connect   42.62.116.18  1028  
+[2021/07/29 10:44:24 792] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:24 792] network    418  soc error  10202  ns6  
+[2021/07/29 10:44:24 792] ns         253  name server http resp  10202  
+[2021/07/29 10:44:24 792] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:24 792] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:24 792] ns         116  use default ip  
+[2021/07/29 10:44:24 793] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:24 793] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:24 793] ns         670  no data in ns_q  
+[2021/07/29 10:44:24 793] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:24 793] transport  542  MSC:[soc] [1] error 10202 10065!  
+[2021/07/29 10:44:24 795] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:24 795] transport  342  soc_conn_failed  
+[2021/07/29 10:44:24 795] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:24 796] transport  416  switch 80  
+[2021/07/29 10:44:24 796] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:25 799] transport  330  soc_10202_wait  
+[2021/07/29 10:44:25 799] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:25 799] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:25 799] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:25 799] transport  1086 name =   ath  
+[2021/07/29 10:44:25 801] ns         634  ntt=  unknown  
+[2021/07/29 10:44:25 801] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:25 801] ns         582  name server start  
+[2021/07/29 10:44:25 801] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:25 801] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:25 801] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:25 801] ns         555  net_type =  standard  
+[2021/07/29 10:44:25 801] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:25 801] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:25 801] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:25 801] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:25 801] network    263  gethostbyname  hdns.xf-yun.com  ns7  
+[2021/07/29 10:44:25 802] network    245  dns resp  10214  ns7  
+[2021/07/29 10:44:25 802] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:25 802] network    445  gethttpresp2  117.121.48.5  80  ns8  
+[2021/07/29 10:44:25 802] network    465  prot_type  tcp  
+[2021/07/29 10:44:25 802] transport  296  [dns] [1] failed! 10214  
+[2021/07/29 10:44:25 802] transport  77   dns_failed  
+[2021/07/29 10:44:25 803] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:25 803] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:25 803] transport  1304 [soc] connect   42.62.116.18  1028  
+[2021/07/29 10:44:25 803] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:25 805] network    418  soc error  10202  ns8  
+[2021/07/29 10:44:25 805] ns         253  name server http resp  10202  
+[2021/07/29 10:44:25 805] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:25 805] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:25 805] ns         116  use default ip  
+[2021/07/29 10:44:25 805] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:25 805] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:25 805] ns         670  no data in ns_q  
+[2021/07/29 10:44:25 805] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:25 805] transport  542  MSC:[soc] [1] error 10202 10065!  
+[2021/07/29 10:44:25 805] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:25 805] transport  342  soc_conn_failed  
+[2021/07/29 10:44:25 805] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:25 806] transport  416  switch 80  
+[2021/07/29 10:44:25 806] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:26 809] transport  330  soc_10202_wait  
+[2021/07/29 10:44:26 809] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:26 809] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:26 809] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:26 809] transport  1086 name =   ath  
+[2021/07/29 10:44:26 809] ns         634  ntt=  unknown  
+[2021/07/29 10:44:26 809] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:26 809] ns         582  name server start  
+[2021/07/29 10:44:26 809] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:26 809] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:26 809] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:26 809] ns         555  net_type =  standard  
+[2021/07/29 10:44:26 809] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:26 809] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:26 809] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:26 809] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:26 809] network    263  gethostbyname  hdns.xf-yun.com  ns9  
+[2021/07/29 10:44:26 811] network    245  dns resp  10214  ns9  
+[2021/07/29 10:44:26 811] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:26 811] network    445  gethttpresp2  117.121.48.5  80  ns10  
+[2021/07/29 10:44:26 811] network    465  prot_type  tcp  
+[2021/07/29 10:44:26 812] transport  296  [dns] [1] failed! 10214  
+[2021/07/29 10:44:26 812] transport  77   dns_failed  
+[2021/07/29 10:44:26 812] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:26 812] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:26 812] transport  1304 [soc] connect   42.62.116.18  1028  
+[2021/07/29 10:44:26 812] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:26 813] network    418  soc error  10202  ns10  
+[2021/07/29 10:44:26 813] ns         253  name server http resp  10202  
+[2021/07/29 10:44:26 813] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:26 813] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:26 813] ns         116  use default ip  
+[2021/07/29 10:44:26 813] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:26 813] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:26 813] ns         670  no data in ns_q  
+[2021/07/29 10:44:26 813] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:26 815] transport  542  MSC:[soc] [1] error 10202 10065!  
+[2021/07/29 10:44:26 815] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:26 815] transport  342  soc_conn_failed  
+[2021/07/29 10:44:26 815] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:26 815] transport  416  switch 80  
+[2021/07/29 10:44:26 815] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:27 763] transport  320  soc_10202_timeout  
+[2021/07/29 10:44:27 812] transport  330  soc_10202_wait  
+[2021/07/29 10:44:27 812] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:27 812] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:27 812] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:27 812] transport  1086 name =   ath  
+[2021/07/29 10:44:27 812] ns         634  ntt=  unknown  
+[2021/07/29 10:44:27 812] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:27 812] ns         582  name server start  
+[2021/07/29 10:44:27 812] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:27 812] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:27 812] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:27 812] ns         555  net_type =  standard  
+[2021/07/29 10:44:27 812] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:27 812] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:27 812] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:27 812] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:27 812] network    263  gethostbyname  hdns.xf-yun.com  ns11  
+[2021/07/29 10:44:27 812] network    245  dns resp  10214  ns11  
+[2021/07/29 10:44:27 812] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:27 812] network    445  gethttpresp2  117.121.48.5  80  ns12  
+[2021/07/29 10:44:27 812] network    465  prot_type  tcp  
+[2021/07/29 10:44:27 815] transport  296  [dns] [1] failed! 10214  
+[2021/07/29 10:44:27 815] transport  77   dns_failed  
+[2021/07/29 10:44:27 815] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:27 815] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:27 815] transport  1304 [soc] connect   42.62.116.18  1028  
+[2021/07/29 10:44:27 815] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:27 815] network    418  soc error  10202  ns12  
+[2021/07/29 10:44:27 816] ns         253  name server http resp  10202  
+[2021/07/29 10:44:27 816] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:27 816] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:27 816] ns         116  use default ip  
+[2021/07/29 10:44:27 816] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:27 816] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:27 816] ns         670  no data in ns_q  
+[2021/07/29 10:44:27 816] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:27 816] transport  542  MSC:[soc] [1] error 10202 10065!  
+[2021/07/29 10:44:27 816] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:27 816] transport  342  soc_conn_failed  
+[2021/07/29 10:44:27 816] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:27 818] transport  416  switch 80  
+[2021/07/29 10:44:27 818] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:28 829] transport  330  soc_10202_wait  
+[2021/07/29 10:44:28 829] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:28 829] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:28 829] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:28 829] transport  1086 name =   ath  
+[2021/07/29 10:44:28 831] ns         634  ntt=  unknown  
+[2021/07/29 10:44:28 831] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:28 831] ns         582  name server start  
+[2021/07/29 10:44:28 831] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:28 831] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:28 831] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:28 831] ns         555  net_type =  standard  
+[2021/07/29 10:44:28 831] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:28 831] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:28 831] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:28 831] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:28 831] network    263  gethostbyname  hdns.xf-yun.com  ns13  
+[2021/07/29 10:44:28 832] network    245  dns resp  10214  ns13  
+[2021/07/29 10:44:28 832] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:28 832] network    445  gethttpresp2  117.121.48.5  80  ns14  
+[2021/07/29 10:44:28 832] network    465  prot_type  tcp  
+[2021/07/29 10:44:28 832] transport  296  [dns] [1] failed! 10214  
+[2021/07/29 10:44:28 832] transport  77   dns_failed  
+[2021/07/29 10:44:28 832] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:28 832] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:28 832] transport  1304 [soc] connect   42.62.116.18  1028  
+[2021/07/29 10:44:28 834] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:28 834] network    418  soc error  10202  ns14  
+[2021/07/29 10:44:28 834] ns         253  name server http resp  10202  
+[2021/07/29 10:44:28 835] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:28 835] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:28 835] ns         116  use default ip  
+[2021/07/29 10:44:28 835] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:28 835] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:28 835] ns         670  no data in ns_q  
+[2021/07/29 10:44:28 835] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:28 835] transport  542  MSC:[soc] [1] error 10202 10065!  
+[2021/07/29 10:44:28 835] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:28 835] transport  342  soc_conn_failed  
+[2021/07/29 10:44:28 835] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:28 835] transport  416  switch 80  
+[2021/07/29 10:44:28 835] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:29 851] transport  330  soc_10202_wait  
+[2021/07/29 10:44:29 851] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:29 851] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:29 851] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:29 851] transport  1086 name =   ath  
+[2021/07/29 10:44:29 851] ns         634  ntt=  unknown  
+[2021/07/29 10:44:29 851] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:29 851] ns         582  name server start  
+[2021/07/29 10:44:29 851] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:29 851] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:29 851] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:29 851] ns         555  net_type =  standard  
+[2021/07/29 10:44:29 851] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:29 851] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:29 851] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:29 851] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:29 851] network    263  gethostbyname  hdns.xf-yun.com  ns15  
+[2021/07/29 10:44:29 851] network    245  dns resp  10214  ns15  
+[2021/07/29 10:44:29 851] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:29 852] network    445  gethttpresp2  117.121.48.5  80  ns16  
+[2021/07/29 10:44:29 852] network    465  prot_type  tcp  
+[2021/07/29 10:44:29 852] transport  296  [dns] [1] failed! 10214  
+[2021/07/29 10:44:29 852] transport  77   dns_failed  
+[2021/07/29 10:44:29 854] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:29 854] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:29 854] transport  1304 [soc] connect   42.62.116.18  1028  
+[2021/07/29 10:44:29 854] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:29 854] network    418  soc error  10202  ns16  
+[2021/07/29 10:44:29 854] ns         253  name server http resp  10202  
+[2021/07/29 10:44:29 854] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:29 854] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:29 854] ns         116  use default ip  
+[2021/07/29 10:44:29 854] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:29 854] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:29 854] ns         670  no data in ns_q  
+[2021/07/29 10:44:29 854] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:29 854] transport  542  MSC:[soc] [1] error 10202 10065!  
+[2021/07/29 10:44:29 855] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:29 855] transport  342  soc_conn_failed  
+[2021/07/29 10:44:29 855] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:29 857] transport  416  switch 80  
+[2021/07/29 10:44:29 857] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:29 857] transport  58   transport=  table(43f7a30) 
+[2021/07/29 10:44:29 857] transport  59   throw_exception  10202  10065  MSC:[soc] [1] error 10202 10065!  
+[2021/07/29 10:44:29 857] lgi        182  [trans] [id = lgi_] exception 10202  
+[2021/07/29 10:44:29 857] lgi        183  lgi trytimes =   6  
+[2021/07/29 10:44:29 858] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:29 858] transport  972  iplist not avail  
+[2021/07/29 10:44:29 858] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:29 858] transport  991  transport clean  
+[2021/07/29 10:44:29 858] lgi        75   notify_lgi_result, ret = 10114  
+[2021/07/29 10:44:29 936] lgi        598  LGI_MSG_START, caller =  cloud_cisr1PdHHBHJmJNuyO5xaaCKflSrBgTu8K  
+[2021/07/29 10:44:29 936] lgi        604  lgistat =   3  
+[2021/07/29 10:44:29 936] lgi        630  lgi_auth_id =  nil  
+[2021/07/29 10:44:29 936] config     91   select default  
+[2021/07/29 10:44:29 936] config     113  use general cloud  
+[2021/07/29 10:44:29 936] transport  645  paramkvsport is   0  
+[2021/07/29 10:44:29 937] transport  657  ns_enable=  1  
+[2021/07/29 10:44:29 937] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2021/07/29 10:44:29 937] transport  665  net.nettype=  unknown  
+[2021/07/29 10:44:29 937] transport  675  url.full=  nil  
+[2021/07/29 10:44:29 937] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2021/07/29 10:44:29 937] transport  907  net type:  unknown  
+[2021/07/29 10:44:29 937] transport  908  net operator:  def  
+[2021/07/29 10:44:29 937] transport  909  use proxy:  false  
+[2021/07/29 10:44:29 937] lgi        277  [session] send lgi request  
+[2021/07/29 10:44:29 937] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:29 937] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:29 938] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:29 938] transport  1179 try preferred port:  80  
+[2021/07/29 10:44:29 938] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:29 938] transport  1086 name =   ath  
+[2021/07/29 10:44:29 938] ns         634  ntt=  unknown  
+[2021/07/29 10:44:29 938] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:29 940] ns         582  name server start  
+[2021/07/29 10:44:29 940] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:29 940] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:29 940] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:29 940] ns         555  net_type =  standard  
+[2021/07/29 10:44:29 940] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:29 940] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:29 940] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:29 940] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:29 940] network    263  gethostbyname  hdns.xf-yun.com  ns17  
+[2021/07/29 10:44:29 940] lgi        244  lver:  nil  
+[2021/07/29 10:44:29 940] lgi        249  cfg_ver:  nil  
+[2021/07/29 10:44:29 940] transport  1860 transport_obj.send | in  
+[2021/07/29 10:44:29 940] transport  1866 self.msg_flag_q  table(44b24a8) 
+[2021/07/29 10:44:29 940] transport  1867 self.msg_q  table(44b2838) 
+[2021/07/29 10:44:29 940] transport  1799 transport_obj.try2send | in  
+[2021/07/29 10:44:29 940] transport  1800 self.soc  nil  
+[2021/07/29 10:44:29 940] transport  1801 self.connected  false  
+[2021/07/29 10:44:29 940] transport  1802 self.latesterr  0  
+[2021/07/29 10:44:29 941] transport  1873 transport_obj.send | out  
+[2021/07/29 10:44:29 941] network    245  dns resp  10214  ns17  
+[2021/07/29 10:44:29 943] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:29 943] network    445  gethttpresp2  117.121.48.5  80  ns18  
+[2021/07/29 10:44:29 943] network    465  prot_type  tcp  
+[2021/07/29 10:44:29 944] transport  296  [dns] [2] failed! 10214  
+[2021/07/29 10:44:29 944] transport  77   dns_failed  
+[2021/07/29 10:44:29 946] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:29 946] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:29 946] transport  1304 [soc] connect   42.62.116.18  80  
+[2021/07/29 10:44:29 946] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:29 947] network    418  soc error  10202  ns18  
+[2021/07/29 10:44:29 947] ns         253  name server http resp  10202  
+[2021/07/29 10:44:29 947] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:29 947] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:29 947] ns         116  use default ip  
+[2021/07/29 10:44:29 947] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:29 947] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:29 947] ns         670  no data in ns_q  
+[2021/07/29 10:44:29 947] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:29 948] transport  542  MSC:[soc] [2] error 10202 10065!  
+[2021/07/29 10:44:29 948] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:29 948] transport  342  soc_conn_failed  
+[2021/07/29 10:44:29 948] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:29 950] transport  416  switch 80  
+[2021/07/29 10:44:29 950] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:30 959] transport  330  soc_10202_wait  
+[2021/07/29 10:44:30 959] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:30 959] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:30 959] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:30 959] transport  1179 try preferred port:  80  
+[2021/07/29 10:44:30 959] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:30 959] transport  1086 name =   ath  
+[2021/07/29 10:44:30 959] ns         634  ntt=  unknown  
+[2021/07/29 10:44:30 960] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:30 960] ns         582  name server start  
+[2021/07/29 10:44:30 960] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:30 960] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:30 960] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:30 960] ns         555  net_type =  standard  
+[2021/07/29 10:44:30 960] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:30 960] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:30 960] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:30 960] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:30 960] network    263  gethostbyname  hdns.xf-yun.com  ns19  
+[2021/07/29 10:44:30 960] network    245  dns resp  10214  ns19  
+[2021/07/29 10:44:30 960] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:30 960] network    445  gethttpresp2  117.121.48.5  80  ns20  
+[2021/07/29 10:44:30 960] network    465  prot_type  tcp  
+[2021/07/29 10:44:30 961] transport  296  [dns] [2] failed! 10214  
+[2021/07/29 10:44:30 961] transport  77   dns_failed  
+[2021/07/29 10:44:30 961] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:30 963] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:30 963] transport  1304 [soc] connect   42.62.116.18  80  
+[2021/07/29 10:44:30 963] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:30 963] network    418  soc error  10202  ns20  
+[2021/07/29 10:44:30 963] ns         253  name server http resp  10202  
+[2021/07/29 10:44:30 963] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:30 963] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:30 963] ns         116  use default ip  
+[2021/07/29 10:44:30 963] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:30 963] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:30 963] ns         670  no data in ns_q  
+[2021/07/29 10:44:30 963] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:30 963] transport  542  MSC:[soc] [2] error 10202 10065!  
+[2021/07/29 10:44:30 963] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:30 963] transport  342  soc_conn_failed  
+[2021/07/29 10:44:30 963] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:30 966] transport  416  switch 80  
+[2021/07/29 10:44:30 966] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:31 974] transport  330  soc_10202_wait  
+[2021/07/29 10:44:31 974] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:31 974] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:31 976] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:31 976] transport  1179 try preferred port:  80  
+[2021/07/29 10:44:31 976] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:31 976] transport  1086 name =   ath  
+[2021/07/29 10:44:31 976] ns         634  ntt=  unknown  
+[2021/07/29 10:44:31 976] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:31 976] ns         582  name server start  
+[2021/07/29 10:44:31 976] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:31 976] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:31 976] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:31 976] ns         555  net_type =  standard  
+[2021/07/29 10:44:31 976] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:31 976] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:31 976] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:31 976] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:31 976] network    263  gethostbyname  hdns.xf-yun.com  ns21  
+[2021/07/29 10:44:31 976] network    245  dns resp  10214  ns21  
+[2021/07/29 10:44:31 976] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:31 976] network    445  gethttpresp2  117.121.48.5  80  ns22  
+[2021/07/29 10:44:31 976] network    465  prot_type  tcp  
+[2021/07/29 10:44:31 977] transport  296  [dns] [2] failed! 10214  
+[2021/07/29 10:44:31 977] transport  77   dns_failed  
+[2021/07/29 10:44:31 979] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:31 979] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:31 979] transport  1304 [soc] connect   42.62.116.18  80  
+[2021/07/29 10:44:31 979] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:31 980] network    418  soc error  10202  ns22  
+[2021/07/29 10:44:31 980] ns         253  name server http resp  10202  
+[2021/07/29 10:44:31 980] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:31 980] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:31 980] ns         116  use default ip  
+[2021/07/29 10:44:31 980] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:31 980] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:31 980] ns         670  no data in ns_q  
+[2021/07/29 10:44:31 980] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:31 980] transport  542  MSC:[soc] [2] error 10202 10065!  
+[2021/07/29 10:44:31 980] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:31 980] transport  342  soc_conn_failed  
+[2021/07/29 10:44:31 980] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:31 982] transport  416  switch 80  
+[2021/07/29 10:44:31 982] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:32 996] transport  330  soc_10202_wait  
+[2021/07/29 10:44:32 996] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:32 996] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:32 997] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:32 997] transport  1179 try preferred port:  80  
+[2021/07/29 10:44:32 997] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:32 997] transport  1086 name =   ath  
+[2021/07/29 10:44:32 997] ns         634  ntt=  unknown  
+[2021/07/29 10:44:32 997] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:32 997] ns         582  name server start  
+[2021/07/29 10:44:32 997] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:32 997] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:32 999] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:32 999] ns         555  net_type =  standard  
+[2021/07/29 10:44:32 999] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:32 999] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:32 999] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:32 999] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:32 999] network    263  gethostbyname  hdns.xf-yun.com  ns23  
+[2021/07/29 10:44:32 999] network    245  dns resp  10214  ns23  
+[2021/07/29 10:44:33 000] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:33 000] network    445  gethttpresp2  117.121.48.5  80  ns24  
+[2021/07/29 10:44:33 000] network    465  prot_type  tcp  
+[2021/07/29 10:44:33 000] transport  296  [dns] [2] failed! 10214  
+[2021/07/29 10:44:33 000] transport  77   dns_failed  
+[2021/07/29 10:44:33 000] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:33 000] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:33 000] transport  1304 [soc] connect   42.62.116.18  80  
+[2021/07/29 10:44:33 000] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:33 002] network    418  soc error  10202  ns24  
+[2021/07/29 10:44:33 002] ns         253  name server http resp  10202  
+[2021/07/29 10:44:33 002] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:33 002] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:33 002] ns         116  use default ip  
+[2021/07/29 10:44:33 002] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:33 002] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:33 002] ns         670  no data in ns_q  
+[2021/07/29 10:44:33 002] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:33 002] transport  542  MSC:[soc] [2] error 10202 10065!  
+[2021/07/29 10:44:33 003] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:33 003] transport  342  soc_conn_failed  
+[2021/07/29 10:44:33 003] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:33 003] transport  416  switch 80  
+[2021/07/29 10:44:33 003] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:34 017] transport  330  soc_10202_wait  
+[2021/07/29 10:44:34 017] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:34 017] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:34 019] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:34 019] transport  1179 try preferred port:  80  
+[2021/07/29 10:44:34 019] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:34 019] transport  1086 name =   ath  
+[2021/07/29 10:44:34 019] ns         634  ntt=  unknown  
+[2021/07/29 10:44:34 019] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:34 019] ns         582  name server start  
+[2021/07/29 10:44:34 019] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:34 019] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:34 019] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:34 019] ns         555  net_type =  standard  
+[2021/07/29 10:44:34 019] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:34 019] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:34 019] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:34 019] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:34 019] network    263  gethostbyname  hdns.xf-yun.com  ns25  
+[2021/07/29 10:44:34 019] network    245  dns resp  10214  ns25  
+[2021/07/29 10:44:34 019] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:34 019] network    445  gethttpresp2  117.121.48.5  80  ns26  
+[2021/07/29 10:44:34 019] network    465  prot_type  tcp  
+[2021/07/29 10:44:34 020] transport  296  [dns] [2] failed! 10214  
+[2021/07/29 10:44:34 020] transport  77   dns_failed  
+[2021/07/29 10:44:34 022] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:34 022] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:34 022] transport  1304 [soc] connect   42.62.116.18  80  
+[2021/07/29 10:44:34 022] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:34 023] network    418  soc error  10202  ns26  
+[2021/07/29 10:44:34 023] ns         253  name server http resp  10202  
+[2021/07/29 10:44:34 023] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:34 023] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:34 023] ns         116  use default ip  
+[2021/07/29 10:44:34 023] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:34 023] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:34 023] ns         670  no data in ns_q  
+[2021/07/29 10:44:34 023] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:34 023] transport  542  MSC:[soc] [2] error 10202 10065!  
+[2021/07/29 10:44:34 023] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:34 023] transport  342  soc_conn_failed  
+[2021/07/29 10:44:34 023] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:34 025] transport  416  switch 80  
+[2021/07/29 10:44:34 025] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:34 971] transport  320  soc_10202_timeout  
+[2021/07/29 10:44:35 049] transport  330  soc_10202_wait  
+[2021/07/29 10:44:35 049] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:35 049] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:35 049] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:35 049] transport  1179 try preferred port:  80  
+[2021/07/29 10:44:35 049] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:35 049] transport  1086 name =   ath  
+[2021/07/29 10:44:35 049] ns         634  ntt=  unknown  
+[2021/07/29 10:44:35 049] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:35 049] ns         582  name server start  
+[2021/07/29 10:44:35 049] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:35 049] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:35 049] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:35 049] ns         555  net_type =  standard  
+[2021/07/29 10:44:35 049] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:35 049] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:35 049] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:35 049] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:35 049] network    263  gethostbyname  hdns.xf-yun.com  ns27  
+[2021/07/29 10:44:35 051] network    245  dns resp  10214  ns27  
+[2021/07/29 10:44:35 051] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:35 051] network    445  gethttpresp2  117.121.48.5  80  ns28  
+[2021/07/29 10:44:35 051] network    465  prot_type  tcp  
+[2021/07/29 10:44:35 052] transport  296  [dns] [2] failed! 10214  
+[2021/07/29 10:44:35 052] transport  77   dns_failed  
+[2021/07/29 10:44:35 052] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:35 052] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:35 052] transport  1304 [soc] connect   42.62.116.18  80  
+[2021/07/29 10:44:35 052] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:35 053] network    418  soc error  10202  ns28  
+[2021/07/29 10:44:35 053] ns         253  name server http resp  10202  
+[2021/07/29 10:44:35 053] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:35 053] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:35 053] ns         116  use default ip  
+[2021/07/29 10:44:35 053] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:35 053] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:35 053] ns         670  no data in ns_q  
+[2021/07/29 10:44:35 053] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:35 053] transport  542  MSC:[soc] [2] error 10202 10065!  
+[2021/07/29 10:44:35 055] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:35 055] transport  342  soc_conn_failed  
+[2021/07/29 10:44:35 055] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:35 055] transport  416  switch 80  
+[2021/07/29 10:44:35 055] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:36 062] transport  330  soc_10202_wait  
+[2021/07/29 10:44:36 062] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:36 062] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:36 062] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:36 062] transport  1179 try preferred port:  80  
+[2021/07/29 10:44:36 062] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:36 062] transport  1086 name =   ath  
+[2021/07/29 10:44:36 062] ns         634  ntt=  unknown  
+[2021/07/29 10:44:36 062] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:36 062] ns         582  name server start  
+[2021/07/29 10:44:36 062] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:36 062] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:36 062] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:36 062] ns         555  net_type =  standard  
+[2021/07/29 10:44:36 062] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:36 062] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:36 062] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:36 062] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:36 062] network    263  gethostbyname  hdns.xf-yun.com  ns29  
+[2021/07/29 10:44:36 062] network    245  dns resp  10214  ns29  
+[2021/07/29 10:44:36 062] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:36 062] network    445  gethttpresp2  117.121.48.5  80  ns30  
+[2021/07/29 10:44:36 062] network    465  prot_type  tcp  
+[2021/07/29 10:44:36 062] transport  296  [dns] [2] failed! 10214  
+[2021/07/29 10:44:36 062] transport  77   dns_failed  
+[2021/07/29 10:44:36 062] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:36 062] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:36 062] transport  1304 [soc] connect   42.62.116.18  80  
+[2021/07/29 10:44:36 062] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:36 062] network    418  soc error  10202  ns30  
+[2021/07/29 10:44:36 062] ns         253  name server http resp  10202  
+[2021/07/29 10:44:36 062] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:36 062] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:36 062] ns         116  use default ip  
+[2021/07/29 10:44:36 062] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:36 062] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:36 062] ns         670  no data in ns_q  
+[2021/07/29 10:44:36 062] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:36 062] transport  542  MSC:[soc] [2] error 10202 10065!  
+[2021/07/29 10:44:36 062] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:36 062] transport  342  soc_conn_failed  
+[2021/07/29 10:44:36 062] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:36 062] transport  416  switch 80  
+[2021/07/29 10:44:36 071] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:37 076] transport  330  soc_10202_wait  
+[2021/07/29 10:44:37 076] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:37 076] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:37 076] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:37 076] transport  1179 try preferred port:  80  
+[2021/07/29 10:44:37 076] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:37 076] transport  1086 name =   ath  
+[2021/07/29 10:44:37 076] ns         634  ntt=  unknown  
+[2021/07/29 10:44:37 076] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:37 076] ns         582  name server start  
+[2021/07/29 10:44:37 076] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:37 076] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:37 076] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:37 076] ns         555  net_type =  standard  
+[2021/07/29 10:44:37 076] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:37 076] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:37 076] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:37 076] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:37 076] network    263  gethostbyname  hdns.xf-yun.com  ns31  
+[2021/07/29 10:44:37 076] network    245  dns resp  10214  ns31  
+[2021/07/29 10:44:37 076] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:37 076] network    445  gethttpresp2  117.121.48.5  80  ns32  
+[2021/07/29 10:44:37 076] network    465  prot_type  tcp  
+[2021/07/29 10:44:37 076] transport  296  [dns] [2] failed! 10214  
+[2021/07/29 10:44:37 076] transport  77   dns_failed  
+[2021/07/29 10:44:37 076] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:37 076] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:37 076] transport  1304 [soc] connect   42.62.116.18  80  
+[2021/07/29 10:44:37 076] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:37 076] network    418  soc error  10202  ns32  
+[2021/07/29 10:44:37 076] ns         253  name server http resp  10202  
+[2021/07/29 10:44:37 076] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:37 076] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:37 076] ns         116  use default ip  
+[2021/07/29 10:44:37 076] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:37 076] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:37 076] ns         670  no data in ns_q  
+[2021/07/29 10:44:37 076] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:37 076] transport  542  MSC:[soc] [2] error 10202 10065!  
+[2021/07/29 10:44:37 076] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:37 076] transport  342  soc_conn_failed  
+[2021/07/29 10:44:37 076] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:37 076] transport  416  switch 80  
+[2021/07/29 10:44:37 076] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:37 076] transport  58   transport=  table(44b27a8) 
+[2021/07/29 10:44:37 076] transport  59   throw_exception  10202  10065  MSC:[soc] [2] error 10202 10065!  
+[2021/07/29 10:44:37 076] lgi        182  [trans] [id = lgi_] exception 10202  
+[2021/07/29 10:44:37 076] lgi        183  lgi trytimes =   6  
+[2021/07/29 10:44:37 086] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:37 086] transport  972  iplist not avail  
+[2021/07/29 10:44:37 086] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:37 086] transport  991  transport clean  
+[2021/07/29 10:44:37 086] lgi        75   notify_lgi_result, ret = 10114  
+============================================================
+Time  2021/07/29 10:44:40 625 
+============================================================
+[2021/07/29 10:44:40 625] lgi        684  SYS_MSG_LOAD  
+[2021/07/29 10:44:40 625] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(2e50708) 
+[2021/07/29 10:44:40 625] lgi        298  LGI_MSG_INIT  
+[2021/07/29 10:44:40 625] lgi        305  lgi  lgi_  268436457  1552301824  
+[2021/07/29 10:44:40 625] lgi        347  work_dir  .  
+[2021/07/29 10:44:40 625] lgi        403  token:  nil  
+[2021/07/29 10:44:40 625] lgi        476  msc cver : 5.0.42.1226  
+[2021/07/29 10:44:40 625] lgi        519  ns_enable=  1  
+[2021/07/29 10:44:40 625] lgi        531  prot_ver=1  
+[2021/07/29 10:44:40 625] lgi        542  prot_type=tcp  
+[2021/07/29 10:44:40 625] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2021/07/29 10:44:48 809] lgi        598  LGI_MSG_START, caller =  cloud_cisr1PdHHBHJmJNAyFUzaawJjPBPkWVkgv  
+[2021/07/29 10:44:48 809] lgi        604  lgistat =   0  
+[2021/07/29 10:44:48 809] lgi        630  lgi_auth_id =  nil  
+[2021/07/29 10:44:48 815] config     91   select default  
+[2021/07/29 10:44:48 815] config     113  use general cloud  
+[2021/07/29 10:44:48 815] transport  645  paramkvsport is   0  
+[2021/07/29 10:44:48 815] transport  657  ns_enable=  1  
+[2021/07/29 10:44:48 815] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2021/07/29 10:44:48 815] transport  665  net.nettype=  unknown  
+[2021/07/29 10:44:48 815] transport  675  url.full=  nil  
+[2021/07/29 10:44:48 815] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2021/07/29 10:44:48 815] transport  907  net type:  unknown  
+[2021/07/29 10:44:48 815] transport  908  net operator:  def  
+[2021/07/29 10:44:48 815] transport  909  use proxy:  false  
+[2021/07/29 10:44:48 815] lgi        277  [session] send lgi request  
+[2021/07/29 10:44:48 815] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:48 815] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:48 815] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:48 815] transport  1086 name =   ath  
+[2021/07/29 10:44:48 815] ns         634  ntt=  unknown  
+[2021/07/29 10:44:48 815] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:48 815] ns         582  name server start  
+[2021/07/29 10:44:48 815] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:48 815] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:48 819] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:48 819] ns         555  net_type =  standard  
+[2021/07/29 10:44:48 819] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:48 819] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:48 819] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:48 819] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:48 819] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2021/07/29 10:44:48 819] lgi        244  lver:  nil  
+[2021/07/29 10:44:48 819] lgi        249  cfg_ver:  nil  
+[2021/07/29 10:44:48 819] transport  1860 transport_obj.send | in  
+[2021/07/29 10:44:48 819] transport  1866 self.msg_flag_q  table(457e648) 
+[2021/07/29 10:44:48 819] transport  1867 self.msg_q  table(457e948) 
+[2021/07/29 10:44:48 819] transport  1799 transport_obj.try2send | in  
+[2021/07/29 10:44:48 819] transport  1800 self.soc  nil  
+[2021/07/29 10:44:48 819] transport  1801 self.connected  false  
+[2021/07/29 10:44:48 819] transport  1802 self.latesterr  0  
+[2021/07/29 10:44:48 819] transport  1873 transport_obj.send | out  
+[2021/07/29 10:44:48 825] network    245  dns resp  10214  ns1  
+[2021/07/29 10:44:48 825] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:48 825] network    445  gethttpresp2  117.121.48.5  80  ns2  
+[2021/07/29 10:44:48 825] network    465  prot_type  tcp  
+[2021/07/29 10:44:48 825] transport  296  [dns] [1] failed! 10214  
+[2021/07/29 10:44:48 825] transport  77   dns_failed  
+[2021/07/29 10:44:48 825] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:48 825] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:48 825] transport  1304 [soc] connect   42.62.116.18  1028  
+[2021/07/29 10:44:48 825] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:48 835] network    418  soc error  10202  ns2  
+[2021/07/29 10:44:48 835] ns         253  name server http resp  10202  
+[2021/07/29 10:44:48 835] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:48 835] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:48 835] ns         116  use default ip  
+[2021/07/29 10:44:48 835] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:48 835] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:48 835] ns         670  no data in ns_q  
+[2021/07/29 10:44:48 835] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:48 835] transport  542  MSC:[soc] [1] error 10202 10065!  
+[2021/07/29 10:44:48 835] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:48 835] transport  342  soc_conn_failed  
+[2021/07/29 10:44:48 835] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:48 835] transport  416  switch 80  
+[2021/07/29 10:44:48 835] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:49 845] transport  330  soc_10202_wait  
+[2021/07/29 10:44:49 845] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:49 845] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:49 845] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:49 845] transport  1086 name =   ath  
+[2021/07/29 10:44:49 845] ns         634  ntt=  unknown  
+[2021/07/29 10:44:49 845] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:49 845] ns         582  name server start  
+[2021/07/29 10:44:49 845] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:49 845] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:49 845] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:49 845] ns         555  net_type =  standard  
+[2021/07/29 10:44:49 845] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:49 845] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:49 845] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:49 845] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:49 845] network    263  gethostbyname  hdns.xf-yun.com  ns3  
+[2021/07/29 10:44:49 845] network    245  dns resp  10214  ns3  
+[2021/07/29 10:44:49 845] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:49 845] network    445  gethttpresp2  117.121.48.5  80  ns4  
+[2021/07/29 10:44:49 845] network    465  prot_type  tcp  
+[2021/07/29 10:44:49 845] transport  296  [dns] [1] failed! 10214  
+[2021/07/29 10:44:49 845] transport  77   dns_failed  
+[2021/07/29 10:44:49 845] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:49 845] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:49 845] transport  1304 [soc] connect   42.62.116.18  1028  
+[2021/07/29 10:44:49 845] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:49 845] network    418  soc error  10202  ns4  
+[2021/07/29 10:44:49 845] ns         253  name server http resp  10202  
+[2021/07/29 10:44:49 845] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:49 845] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:49 845] ns         116  use default ip  
+[2021/07/29 10:44:49 845] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:49 845] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:49 845] ns         670  no data in ns_q  
+[2021/07/29 10:44:49 845] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:49 855] transport  542  MSC:[soc] [1] error 10202 10065!  
+[2021/07/29 10:44:49 855] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:49 855] transport  342  soc_conn_failed  
+[2021/07/29 10:44:49 855] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:49 855] transport  416  switch 80  
+[2021/07/29 10:44:49 855] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:50 855] transport  330  soc_10202_wait  
+[2021/07/29 10:44:50 855] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:50 855] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:50 855] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:50 855] transport  1086 name =   ath  
+[2021/07/29 10:44:50 855] ns         634  ntt=  unknown  
+[2021/07/29 10:44:50 855] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:50 855] ns         582  name server start  
+[2021/07/29 10:44:50 855] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:50 855] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:50 855] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:50 855] ns         555  net_type =  standard  
+[2021/07/29 10:44:50 855] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:50 855] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:50 855] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:50 855] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:50 855] network    263  gethostbyname  hdns.xf-yun.com  ns5  
+[2021/07/29 10:44:50 855] network    245  dns resp  10214  ns5  
+[2021/07/29 10:44:50 855] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:50 855] network    445  gethttpresp2  117.121.48.5  80  ns6  
+[2021/07/29 10:44:50 855] network    465  prot_type  tcp  
+[2021/07/29 10:44:50 855] transport  296  [dns] [1] failed! 10214  
+[2021/07/29 10:44:50 855] transport  77   dns_failed  
+[2021/07/29 10:44:50 855] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:50 855] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:50 855] transport  1304 [soc] connect   42.62.116.18  1028  
+[2021/07/29 10:44:50 855] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:50 855] network    418  soc error  10202  ns6  
+[2021/07/29 10:44:50 855] ns         253  name server http resp  10202  
+[2021/07/29 10:44:50 855] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:50 855] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:50 855] ns         116  use default ip  
+[2021/07/29 10:44:50 855] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:50 855] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:50 855] ns         670  no data in ns_q  
+[2021/07/29 10:44:50 855] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:50 855] transport  542  MSC:[soc] [1] error 10202 10065!  
+[2021/07/29 10:44:50 855] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:50 855] transport  342  soc_conn_failed  
+[2021/07/29 10:44:50 855] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:50 855] transport  416  switch 80  
+[2021/07/29 10:44:50 855] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:51 865] transport  330  soc_10202_wait  
+[2021/07/29 10:44:51 865] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:51 865] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:51 865] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:51 865] transport  1086 name =   ath  
+[2021/07/29 10:44:51 865] ns         634  ntt=  unknown  
+[2021/07/29 10:44:51 865] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:51 865] ns         582  name server start  
+[2021/07/29 10:44:51 865] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:51 865] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:51 865] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:51 865] ns         555  net_type =  standard  
+[2021/07/29 10:44:51 865] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:51 865] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:51 865] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:51 865] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:51 865] network    263  gethostbyname  hdns.xf-yun.com  ns7  
+[2021/07/29 10:44:51 865] network    245  dns resp  10214  ns7  
+[2021/07/29 10:44:51 865] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:51 865] network    445  gethttpresp2  117.121.48.5  80  ns8  
+[2021/07/29 10:44:51 865] network    465  prot_type  tcp  
+[2021/07/29 10:44:51 865] transport  296  [dns] [1] failed! 10214  
+[2021/07/29 10:44:51 865] transport  77   dns_failed  
+[2021/07/29 10:44:51 865] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:51 865] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:51 865] transport  1304 [soc] connect   42.62.116.18  1028  
+[2021/07/29 10:44:51 865] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:51 865] network    418  soc error  10202  ns8  
+[2021/07/29 10:44:51 865] ns         253  name server http resp  10202  
+[2021/07/29 10:44:51 865] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:51 865] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:51 865] ns         116  use default ip  
+[2021/07/29 10:44:51 865] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:51 865] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:51 865] ns         670  no data in ns_q  
+[2021/07/29 10:44:51 865] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:51 865] transport  542  MSC:[soc] [1] error 10202 10065!  
+[2021/07/29 10:44:51 865] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:51 865] transport  342  soc_conn_failed  
+[2021/07/29 10:44:51 865] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:51 865] transport  416  switch 80  
+[2021/07/29 10:44:51 865] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:52 875] transport  330  soc_10202_wait  
+[2021/07/29 10:44:52 875] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:52 875] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:52 875] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:52 875] transport  1086 name =   ath  
+[2021/07/29 10:44:52 875] ns         634  ntt=  unknown  
+[2021/07/29 10:44:52 875] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:52 875] ns         582  name server start  
+[2021/07/29 10:44:52 875] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:52 875] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:52 875] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:52 875] ns         555  net_type =  standard  
+[2021/07/29 10:44:52 875] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:52 875] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:52 875] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:52 875] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:52 875] network    263  gethostbyname  hdns.xf-yun.com  ns9  
+[2021/07/29 10:44:52 875] network    245  dns resp  10214  ns9  
+[2021/07/29 10:44:52 875] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:52 875] network    445  gethttpresp2  117.121.48.5  80  ns10  
+[2021/07/29 10:44:52 875] network    465  prot_type  tcp  
+[2021/07/29 10:44:52 875] transport  296  [dns] [1] failed! 10214  
+[2021/07/29 10:44:52 875] transport  77   dns_failed  
+[2021/07/29 10:44:52 875] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:52 875] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:52 875] transport  1304 [soc] connect   42.62.116.18  1028  
+[2021/07/29 10:44:52 875] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:52 875] network    418  soc error  10202  ns10  
+[2021/07/29 10:44:52 875] ns         253  name server http resp  10202  
+[2021/07/29 10:44:52 875] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:52 875] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:52 884] ns         116  use default ip  
+[2021/07/29 10:44:52 884] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:52 884] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:52 884] ns         670  no data in ns_q  
+[2021/07/29 10:44:52 884] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:52 884] transport  542  MSC:[soc] [1] error 10202 10065!  
+[2021/07/29 10:44:52 884] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:52 884] transport  342  soc_conn_failed  
+[2021/07/29 10:44:52 884] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:52 884] transport  416  switch 80  
+[2021/07/29 10:44:52 884] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:53 825] transport  320  soc_10202_timeout  
+[2021/07/29 10:44:53 895] transport  330  soc_10202_wait  
+[2021/07/29 10:44:53 895] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:53 895] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:53 895] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:53 895] transport  1086 name =   ath  
+[2021/07/29 10:44:53 895] ns         634  ntt=  unknown  
+[2021/07/29 10:44:53 895] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:53 895] ns         582  name server start  
+[2021/07/29 10:44:53 895] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:53 895] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:53 895] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:53 895] ns         555  net_type =  standard  
+[2021/07/29 10:44:53 895] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:53 895] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:53 895] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:53 895] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:53 895] network    263  gethostbyname  hdns.xf-yun.com  ns11  
+[2021/07/29 10:44:53 895] network    245  dns resp  10214  ns11  
+[2021/07/29 10:44:53 895] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:53 895] network    445  gethttpresp2  117.121.48.5  80  ns12  
+[2021/07/29 10:44:53 895] network    465  prot_type  tcp  
+[2021/07/29 10:44:53 895] transport  296  [dns] [1] failed! 10214  
+[2021/07/29 10:44:53 895] transport  77   dns_failed  
+[2021/07/29 10:44:53 895] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:53 895] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:53 895] transport  1304 [soc] connect   42.62.116.18  1028  
+[2021/07/29 10:44:53 895] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:53 895] network    418  soc error  10202  ns12  
+[2021/07/29 10:44:53 900] ns         253  name server http resp  10202  
+[2021/07/29 10:44:53 900] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:53 900] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:53 900] ns         116  use default ip  
+[2021/07/29 10:44:53 900] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:53 900] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:53 900] ns         670  no data in ns_q  
+[2021/07/29 10:44:53 900] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:53 900] transport  542  MSC:[soc] [1] error 10202 10065!  
+[2021/07/29 10:44:53 900] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:53 900] transport  342  soc_conn_failed  
+[2021/07/29 10:44:53 900] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:53 900] transport  416  switch 80  
+[2021/07/29 10:44:53 900] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:54 904] transport  330  soc_10202_wait  
+[2021/07/29 10:44:54 904] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:54 904] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:54 904] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:54 904] transport  1086 name =   ath  
+[2021/07/29 10:44:54 904] ns         634  ntt=  unknown  
+[2021/07/29 10:44:54 904] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:54 904] ns         582  name server start  
+[2021/07/29 10:44:54 904] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:54 904] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:54 904] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:54 904] ns         555  net_type =  standard  
+[2021/07/29 10:44:54 904] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:54 904] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:54 904] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:54 904] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:54 904] network    263  gethostbyname  hdns.xf-yun.com  ns13  
+[2021/07/29 10:44:54 904] network    245  dns resp  10214  ns13  
+[2021/07/29 10:44:54 904] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:54 904] network    445  gethttpresp2  117.121.48.5  80  ns14  
+[2021/07/29 10:44:54 904] network    465  prot_type  tcp  
+[2021/07/29 10:44:54 904] transport  296  [dns] [1] failed! 10214  
+[2021/07/29 10:44:54 904] transport  77   dns_failed  
+[2021/07/29 10:44:54 904] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:54 904] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:54 904] transport  1304 [soc] connect   42.62.116.18  1028  
+[2021/07/29 10:44:54 904] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:54 904] network    418  soc error  10202  ns14  
+[2021/07/29 10:44:54 904] ns         253  name server http resp  10202  
+[2021/07/29 10:44:54 904] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:54 904] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:54 904] ns         116  use default ip  
+[2021/07/29 10:44:54 904] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:54 904] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:54 904] ns         670  no data in ns_q  
+[2021/07/29 10:44:54 904] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:54 904] transport  542  MSC:[soc] [1] error 10202 10065!  
+[2021/07/29 10:44:54 914] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:54 914] transport  342  soc_conn_failed  
+[2021/07/29 10:44:54 914] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:54 914] transport  416  switch 80  
+[2021/07/29 10:44:54 914] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:55 924] transport  330  soc_10202_wait  
+[2021/07/29 10:44:55 924] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:55 924] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:55 924] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:55 924] transport  1086 name =   ath  
+[2021/07/29 10:44:55 924] ns         634  ntt=  unknown  
+[2021/07/29 10:44:55 924] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:55 924] ns         582  name server start  
+[2021/07/29 10:44:55 924] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:55 924] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:55 924] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:55 924] ns         555  net_type =  standard  
+[2021/07/29 10:44:55 924] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:55 924] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:55 924] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:55 924] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:55 924] network    263  gethostbyname  hdns.xf-yun.com  ns15  
+[2021/07/29 10:44:55 924] network    245  dns resp  10214  ns15  
+[2021/07/29 10:44:55 924] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:55 924] network    445  gethttpresp2  117.121.48.5  80  ns16  
+[2021/07/29 10:44:55 924] network    465  prot_type  tcp  
+[2021/07/29 10:44:55 924] transport  296  [dns] [1] failed! 10214  
+[2021/07/29 10:44:55 924] transport  77   dns_failed  
+[2021/07/29 10:44:55 924] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:55 924] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:55 924] transport  1304 [soc] connect   42.62.116.18  1028  
+[2021/07/29 10:44:55 924] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:55 924] network    418  soc error  10202  ns16  
+[2021/07/29 10:44:55 924] ns         253  name server http resp  10202  
+[2021/07/29 10:44:55 924] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:55 924] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:55 924] ns         116  use default ip  
+[2021/07/29 10:44:55 924] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:55 924] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:55 924] ns         670  no data in ns_q  
+[2021/07/29 10:44:55 924] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:55 924] transport  542  MSC:[soc] [1] error 10202 10065!  
+[2021/07/29 10:44:55 924] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:55 924] transport  342  soc_conn_failed  
+[2021/07/29 10:44:55 924] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:55 924] transport  416  switch 80  
+[2021/07/29 10:44:55 924] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:55 924] transport  58   transport=  table(457e198) 
+[2021/07/29 10:44:55 924] transport  59   throw_exception  10202  10065  MSC:[soc] [1] error 10202 10065!  
+[2021/07/29 10:44:55 924] lgi        182  [trans] [id = lgi_] exception 10202  
+[2021/07/29 10:44:55 924] lgi        183  lgi trytimes =   6  
+[2021/07/29 10:44:55 924] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:55 924] transport  972  iplist not avail  
+[2021/07/29 10:44:55 924] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:55 924] transport  991  transport clean  
+[2021/07/29 10:44:55 924] lgi        75   notify_lgi_result, ret = 10114  
+[2021/07/29 10:44:55 940] lgi        598  LGI_MSG_START, caller =  cloud_cisr1PdHHBHJmJNOyVIDaawJjPBPkWVkgv  
+[2021/07/29 10:44:55 944] lgi        604  lgistat =   3  
+[2021/07/29 10:44:55 944] lgi        630  lgi_auth_id =  nil  
+[2021/07/29 10:44:55 944] config     91   select default  
+[2021/07/29 10:44:55 944] config     113  use general cloud  
+[2021/07/29 10:44:55 944] transport  645  paramkvsport is   0  
+[2021/07/29 10:44:55 944] transport  657  ns_enable=  1  
+[2021/07/29 10:44:55 944] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2021/07/29 10:44:55 944] transport  665  net.nettype=  unknown  
+[2021/07/29 10:44:55 944] transport  675  url.full=  nil  
+[2021/07/29 10:44:55 944] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2021/07/29 10:44:55 944] transport  907  net type:  unknown  
+[2021/07/29 10:44:55 944] transport  908  net operator:  def  
+[2021/07/29 10:44:55 944] transport  909  use proxy:  false  
+[2021/07/29 10:44:55 944] lgi        277  [session] send lgi request  
+[2021/07/29 10:44:55 944] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:55 944] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:55 944] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:55 944] transport  1179 try preferred port:  80  
+[2021/07/29 10:44:55 944] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:55 944] transport  1086 name =   ath  
+[2021/07/29 10:44:55 944] ns         634  ntt=  unknown  
+[2021/07/29 10:44:55 944] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:55 944] ns         582  name server start  
+[2021/07/29 10:44:55 944] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:55 944] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:55 944] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:55 944] ns         555  net_type =  standard  
+[2021/07/29 10:44:55 944] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:55 944] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:55 944] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:55 944] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:55 944] network    263  gethostbyname  hdns.xf-yun.com  ns17  
+[2021/07/29 10:44:55 944] lgi        244  lver:  nil  
+[2021/07/29 10:44:55 944] lgi        249  cfg_ver:  nil  
+[2021/07/29 10:44:55 944] transport  1860 transport_obj.send | in  
+[2021/07/29 10:44:55 944] transport  1866 self.msg_flag_q  table(46b2a98) 
+[2021/07/29 10:44:55 944] transport  1867 self.msg_q  table(46b2a38) 
+[2021/07/29 10:44:55 944] transport  1799 transport_obj.try2send | in  
+[2021/07/29 10:44:55 944] transport  1800 self.soc  nil  
+[2021/07/29 10:44:55 944] transport  1801 self.connected  false  
+[2021/07/29 10:44:55 944] transport  1802 self.latesterr  0  
+[2021/07/29 10:44:55 944] transport  1873 transport_obj.send | out  
+[2021/07/29 10:44:55 944] network    245  dns resp  10214  ns17  
+[2021/07/29 10:44:55 944] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:55 944] network    445  gethttpresp2  117.121.48.5  80  ns18  
+[2021/07/29 10:44:55 944] network    465  prot_type  tcp  
+[2021/07/29 10:44:55 944] transport  296  [dns] [2] failed! 10214  
+[2021/07/29 10:44:55 944] transport  77   dns_failed  
+[2021/07/29 10:44:55 944] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:55 944] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:55 954] transport  1304 [soc] connect   42.62.116.18  80  
+[2021/07/29 10:44:55 954] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:55 954] network    418  soc error  10202  ns18  
+[2021/07/29 10:44:55 954] ns         253  name server http resp  10202  
+[2021/07/29 10:44:55 954] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:55 954] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:55 954] ns         116  use default ip  
+[2021/07/29 10:44:55 954] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:55 954] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:55 954] ns         670  no data in ns_q  
+[2021/07/29 10:44:55 954] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:55 954] transport  542  MSC:[soc] [2] error 10202 10065!  
+[2021/07/29 10:44:55 954] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:55 954] transport  342  soc_conn_failed  
+[2021/07/29 10:44:55 954] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:55 954] transport  416  switch 80  
+[2021/07/29 10:44:55 954] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:56 964] transport  330  soc_10202_wait  
+[2021/07/29 10:44:56 964] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:56 964] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:56 964] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:56 964] transport  1179 try preferred port:  80  
+[2021/07/29 10:44:56 964] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:56 964] transport  1086 name =   ath  
+[2021/07/29 10:44:56 964] ns         634  ntt=  unknown  
+[2021/07/29 10:44:56 964] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:56 964] ns         582  name server start  
+[2021/07/29 10:44:56 964] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:56 964] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:56 964] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:56 964] ns         555  net_type =  standard  
+[2021/07/29 10:44:56 964] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:56 964] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:56 964] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:56 964] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:56 964] network    263  gethostbyname  hdns.xf-yun.com  ns19  
+[2021/07/29 10:44:56 964] network    245  dns resp  10214  ns19  
+[2021/07/29 10:44:56 964] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:56 964] network    445  gethttpresp2  117.121.48.5  80  ns20  
+[2021/07/29 10:44:56 964] network    465  prot_type  tcp  
+[2021/07/29 10:44:56 964] transport  296  [dns] [2] failed! 10214  
+[2021/07/29 10:44:56 964] transport  77   dns_failed  
+[2021/07/29 10:44:56 964] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:56 964] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:56 964] transport  1304 [soc] connect   42.62.116.18  80  
+[2021/07/29 10:44:56 964] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:56 974] network    418  soc error  10202  ns20  
+[2021/07/29 10:44:56 974] ns         253  name server http resp  10202  
+[2021/07/29 10:44:56 974] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:56 974] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:56 974] ns         116  use default ip  
+[2021/07/29 10:44:56 974] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:56 974] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:56 974] ns         670  no data in ns_q  
+[2021/07/29 10:44:56 974] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:56 974] transport  542  MSC:[soc] [2] error 10202 10065!  
+[2021/07/29 10:44:56 974] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:56 974] transport  342  soc_conn_failed  
+[2021/07/29 10:44:56 974] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:56 974] transport  416  switch 80  
+[2021/07/29 10:44:56 974] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:57 974] transport  330  soc_10202_wait  
+[2021/07/29 10:44:57 974] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:57 974] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:57 974] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:57 974] transport  1179 try preferred port:  80  
+[2021/07/29 10:44:57 974] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:57 974] transport  1086 name =   ath  
+[2021/07/29 10:44:57 974] ns         634  ntt=  unknown  
+[2021/07/29 10:44:57 974] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:57 974] ns         582  name server start  
+[2021/07/29 10:44:57 974] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:57 974] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:57 974] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:57 974] ns         555  net_type =  standard  
+[2021/07/29 10:44:57 974] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:57 974] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:57 974] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:57 974] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:57 974] network    263  gethostbyname  hdns.xf-yun.com  ns21  
+[2021/07/29 10:44:57 974] network    245  dns resp  10214  ns21  
+[2021/07/29 10:44:57 974] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:57 974] network    445  gethttpresp2  117.121.48.5  80  ns22  
+[2021/07/29 10:44:57 974] network    465  prot_type  tcp  
+[2021/07/29 10:44:57 974] transport  296  [dns] [2] failed! 10214  
+[2021/07/29 10:44:57 974] transport  77   dns_failed  
+[2021/07/29 10:44:57 974] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:57 974] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:57 974] transport  1304 [soc] connect   42.62.116.18  80  
+[2021/07/29 10:44:57 974] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:57 984] network    418  soc error  10202  ns22  
+[2021/07/29 10:44:57 984] ns         253  name server http resp  10202  
+[2021/07/29 10:44:57 984] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:57 984] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:57 984] ns         116  use default ip  
+[2021/07/29 10:44:57 984] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:57 984] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:57 984] ns         670  no data in ns_q  
+[2021/07/29 10:44:57 984] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:57 984] transport  542  MSC:[soc] [2] error 10202 10065!  
+[2021/07/29 10:44:57 984] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:57 984] transport  342  soc_conn_failed  
+[2021/07/29 10:44:57 984] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:57 984] transport  416  switch 80  
+[2021/07/29 10:44:57 984] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:58 984] transport  330  soc_10202_wait  
+[2021/07/29 10:44:58 984] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:58 984] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:58 984] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:58 984] transport  1179 try preferred port:  80  
+[2021/07/29 10:44:58 984] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:58 984] transport  1086 name =   ath  
+[2021/07/29 10:44:58 984] ns         634  ntt=  unknown  
+[2021/07/29 10:44:58 984] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:58 984] ns         582  name server start  
+[2021/07/29 10:44:58 984] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:58 984] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:58 984] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:58 984] ns         555  net_type =  standard  
+[2021/07/29 10:44:58 984] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:58 984] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:58 984] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:58 984] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:58 984] network    263  gethostbyname  hdns.xf-yun.com  ns23  
+[2021/07/29 10:44:58 984] network    245  dns resp  10214  ns23  
+[2021/07/29 10:44:58 984] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:58 984] network    445  gethttpresp2  117.121.48.5  80  ns24  
+[2021/07/29 10:44:58 984] network    465  prot_type  tcp  
+[2021/07/29 10:44:58 984] transport  296  [dns] [2] failed! 10214  
+[2021/07/29 10:44:58 984] transport  77   dns_failed  
+[2021/07/29 10:44:58 984] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:58 984] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:58 984] transport  1304 [soc] connect   42.62.116.18  80  
+[2021/07/29 10:44:58 984] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:58 994] network    418  soc error  10202  ns24  
+[2021/07/29 10:44:58 994] ns         253  name server http resp  10202  
+[2021/07/29 10:44:58 994] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:44:58 994] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:58 994] ns         116  use default ip  
+[2021/07/29 10:44:58 994] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:44:58 994] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:58 994] ns         670  no data in ns_q  
+[2021/07/29 10:44:58 994] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:44:58 994] transport  542  MSC:[soc] [2] error 10202 10065!  
+[2021/07/29 10:44:58 994] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:44:58 994] transport  342  soc_conn_failed  
+[2021/07/29 10:44:58 994] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:58 994] transport  416  switch 80  
+[2021/07/29 10:44:58 994] transport  1332 [soc] disconnect   
+[2021/07/29 10:44:59 996] transport  330  soc_10202_wait  
+[2021/07/29 10:44:59 996] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:44:59 996] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:44:59 996] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:59 996] transport  1179 try preferred port:  80  
+[2021/07/29 10:44:59 996] transport  1083 NAMESERVER START  
+[2021/07/29 10:44:59 996] transport  1086 name =   ath  
+[2021/07/29 10:44:59 996] ns         634  ntt=  unknown  
+[2021/07/29 10:44:59 996] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:44:59 996] ns         582  name server start  
+[2021/07/29 10:44:59 996] ns         588  ns_sub =   ath  
+[2021/07/29 10:44:59 996] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:44:59 996] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:44:59 996] ns         555  net_type =  standard  
+[2021/07/29 10:44:59 996] ns         556  cmwapascmnet =  
+[2021/07/29 10:44:59 996] ns         557  uniwapasuninet =  
+[2021/07/29 10:44:59 996] ns         558  ctwapasctnet =  
+[2021/07/29 10:44:59 996] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:44:59 996] network    263  gethostbyname  hdns.xf-yun.com  ns25  
+[2021/07/29 10:44:59 996] network    245  dns resp  10214  ns25  
+[2021/07/29 10:44:59 996] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:44:59 996] network    445  gethttpresp2  117.121.48.5  80  ns26  
+[2021/07/29 10:44:59 996] network    465  prot_type  tcp  
+[2021/07/29 10:44:59 996] transport  296  [dns] [2] failed! 10214  
+[2021/07/29 10:44:59 996] transport  77   dns_failed  
+[2021/07/29 10:44:59 996] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:59 996] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:44:59 996] transport  1304 [soc] connect   42.62.116.18  80  
+[2021/07/29 10:44:59 996] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:44:59 996] network    418  soc error  10202  ns26  
+[2021/07/29 10:45:00 005] ns         253  name server http resp  10202  
+[2021/07/29 10:45:00 005] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:45:00 005] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:45:00 005] ns         116  use default ip  
+[2021/07/29 10:45:00 005] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:45:00 005] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:45:00 005] ns         670  no data in ns_q  
+[2021/07/29 10:45:00 005] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:45:00 005] transport  542  MSC:[soc] [2] error 10202 10065!  
+[2021/07/29 10:45:00 005] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:45:00 005] transport  342  soc_conn_failed  
+[2021/07/29 10:45:00 005] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:45:00 005] transport  416  switch 80  
+[2021/07/29 10:45:00 005] transport  1332 [soc] disconnect   
+[2021/07/29 10:45:00 954] transport  320  soc_10202_timeout  
+[2021/07/29 10:45:01 005] transport  330  soc_10202_wait  
+[2021/07/29 10:45:01 005] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:45:01 005] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:45:01 005] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:45:01 005] transport  1179 try preferred port:  80  
+[2021/07/29 10:45:01 005] transport  1083 NAMESERVER START  
+[2021/07/29 10:45:01 005] transport  1086 name =   ath  
+[2021/07/29 10:45:01 005] ns         634  ntt=  unknown  
+[2021/07/29 10:45:01 005] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:45:01 005] ns         582  name server start  
+[2021/07/29 10:45:01 005] ns         588  ns_sub =   ath  
+[2021/07/29 10:45:01 005] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:45:01 005] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:45:01 005] ns         555  net_type =  standard  
+[2021/07/29 10:45:01 005] ns         556  cmwapascmnet =  
+[2021/07/29 10:45:01 005] ns         557  uniwapasuninet =  
+[2021/07/29 10:45:01 005] ns         558  ctwapasctnet =  
+[2021/07/29 10:45:01 005] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:45:01 005] network    263  gethostbyname  hdns.xf-yun.com  ns27  
+[2021/07/29 10:45:01 005] network    245  dns resp  10214  ns27  
+[2021/07/29 10:45:01 005] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:45:01 005] network    445  gethttpresp2  117.121.48.5  80  ns28  
+[2021/07/29 10:45:01 005] network    465  prot_type  tcp  
+[2021/07/29 10:45:01 005] transport  296  [dns] [2] failed! 10214  
+[2021/07/29 10:45:01 005] transport  77   dns_failed  
+[2021/07/29 10:45:01 005] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:45:01 005] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:45:01 005] transport  1304 [soc] connect   42.62.116.18  80  
+[2021/07/29 10:45:01 005] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:45:01 015] network    418  soc error  10202  ns28  
+[2021/07/29 10:45:01 015] ns         253  name server http resp  10202  
+[2021/07/29 10:45:01 015] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:45:01 015] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:45:01 015] ns         116  use default ip  
+[2021/07/29 10:45:01 015] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:45:01 015] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:45:01 015] ns         670  no data in ns_q  
+[2021/07/29 10:45:01 015] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:45:01 015] transport  542  MSC:[soc] [2] error 10202 10065!  
+[2021/07/29 10:45:01 015] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:45:01 015] transport  342  soc_conn_failed  
+[2021/07/29 10:45:01 015] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:45:01 015] transport  416  switch 80  
+[2021/07/29 10:45:01 015] transport  1332 [soc] disconnect   
+[2021/07/29 10:45:02 015] transport  330  soc_10202_wait  
+[2021/07/29 10:45:02 015] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:45:02 015] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:45:02 015] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:45:02 015] transport  1179 try preferred port:  80  
+[2021/07/29 10:45:02 015] transport  1083 NAMESERVER START  
+[2021/07/29 10:45:02 015] transport  1086 name =   ath  
+[2021/07/29 10:45:02 015] ns         634  ntt=  unknown  
+[2021/07/29 10:45:02 015] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:45:02 015] ns         582  name server start  
+[2021/07/29 10:45:02 015] ns         588  ns_sub =   ath  
+[2021/07/29 10:45:02 015] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:45:02 015] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:45:02 015] ns         555  net_type =  standard  
+[2021/07/29 10:45:02 015] ns         556  cmwapascmnet =  
+[2021/07/29 10:45:02 015] ns         557  uniwapasuninet =  
+[2021/07/29 10:45:02 015] ns         558  ctwapasctnet =  
+[2021/07/29 10:45:02 015] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:45:02 015] network    263  gethostbyname  hdns.xf-yun.com  ns29  
+[2021/07/29 10:45:02 015] network    245  dns resp  10214  ns29  
+[2021/07/29 10:45:02 015] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:45:02 015] network    445  gethttpresp2  117.121.48.5  80  ns30  
+[2021/07/29 10:45:02 015] network    465  prot_type  tcp  
+[2021/07/29 10:45:02 015] transport  296  [dns] [2] failed! 10214  
+[2021/07/29 10:45:02 015] transport  77   dns_failed  
+[2021/07/29 10:45:02 015] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:45:02 015] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:45:02 015] transport  1304 [soc] connect   42.62.116.18  80  
+[2021/07/29 10:45:02 015] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:45:02 015] network    418  soc error  10202  ns30  
+[2021/07/29 10:45:02 015] ns         253  name server http resp  10202  
+[2021/07/29 10:45:02 015] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:45:02 015] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:45:02 015] ns         116  use default ip  
+[2021/07/29 10:45:02 015] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:45:02 015] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:45:02 015] ns         670  no data in ns_q  
+[2021/07/29 10:45:02 015] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:45:02 015] transport  542  MSC:[soc] [2] error 10202 10065!  
+[2021/07/29 10:45:02 015] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:45:02 015] transport  342  soc_conn_failed  
+[2021/07/29 10:45:02 015] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:45:02 015] transport  416  switch 80  
+[2021/07/29 10:45:02 015] transport  1332 [soc] disconnect   
+[2021/07/29 10:45:03 025] transport  330  soc_10202_wait  
+[2021/07/29 10:45:03 025] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:45:03 025] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:45:03 025] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:45:03 025] transport  1179 try preferred port:  80  
+[2021/07/29 10:45:03 025] transport  1083 NAMESERVER START  
+[2021/07/29 10:45:03 025] transport  1086 name =   ath  
+[2021/07/29 10:45:03 025] ns         634  ntt=  unknown  
+[2021/07/29 10:45:03 025] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:45:03 025] ns         582  name server start  
+[2021/07/29 10:45:03 025] ns         588  ns_sub =   ath  
+[2021/07/29 10:45:03 025] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:45:03 025] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:45:03 025] ns         555  net_type =  standard  
+[2021/07/29 10:45:03 025] ns         556  cmwapascmnet =  
+[2021/07/29 10:45:03 025] ns         557  uniwapasuninet =  
+[2021/07/29 10:45:03 025] ns         558  ctwapasctnet =  
+[2021/07/29 10:45:03 026] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:45:03 026] network    263  gethostbyname  hdns.xf-yun.com  ns31  
+[2021/07/29 10:45:03 026] network    245  dns resp  10214  ns31  
+[2021/07/29 10:45:03 026] ns         454  ns dns failed, err =   10214  
+[2021/07/29 10:45:03 026] network    445  gethttpresp2  117.121.48.5  80  ns32  
+[2021/07/29 10:45:03 026] network    465  prot_type  tcp  
+[2021/07/29 10:45:03 026] transport  296  [dns] [2] failed! 10214  
+[2021/07/29 10:45:03 026] transport  77   dns_failed  
+[2021/07/29 10:45:03 026] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:45:03 026] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2021/07/29 10:45:03 026] transport  1304 [soc] connect   42.62.116.18  80  
+[2021/07/29 10:45:03 026] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:45:03 026] network    418  soc error  10202  ns32  
+[2021/07/29 10:45:03 026] ns         253  name server http resp  10202  
+[2021/07/29 10:45:03 026] ns         412  ns response failed, err =  10202  
+[2021/07/29 10:45:03 026] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:45:03 026] ns         116  use default ip  
+[2021/07/29 10:45:03 026] transport  1063 ns_ip =   42.62.116.18  
+[2021/07/29 10:45:03 026] transport  1064 ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:45:03 026] ns         670  no data in ns_q  
+[2021/07/29 10:45:03 026] ns         671  conti_ns,ns_inprog =   1  
+[2021/07/29 10:45:03 026] transport  542  MSC:[soc] [2] error 10202 10065!  
+[2021/07/29 10:45:03 026] transport  67   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2021/07/29 10:45:03 026] transport  342  soc_conn_failed  
+[2021/07/29 10:45:03 026] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:45:03 026] transport  416  switch 80  
+[2021/07/29 10:45:03 026] transport  1332 [soc] disconnect   
+[2021/07/29 10:45:03 026] transport  58   transport=  table(46b2d38) 
+[2021/07/29 10:45:03 026] transport  59   throw_exception  10202  10065  MSC:[soc] [2] error 10202 10065!  
+[2021/07/29 10:45:03 026] lgi        182  [trans] [id = lgi_] exception 10202  
+[2021/07/29 10:45:03 026] lgi        183  lgi trytimes =   6  
+[2021/07/29 10:45:03 035] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2021/07/29 10:45:03 035] transport  972  iplist not avail  
+[2021/07/29 10:45:03 035] transport  1332 [soc] disconnect   
+[2021/07/29 10:45:03 035] transport  991  transport clean  
+[2021/07/29 10:45:03 035] lgi        75   notify_lgi_result, ret = 10114  
+[2021/07/29 10:45:11 845] lgi        598  LGI_MSG_START, caller =  cloud_cisr1PdHHBHJmJN8y3j4awwVKBkP5TmP40  
+[2021/07/29 10:45:11 845] lgi        604  lgistat =   3  
+[2021/07/29 10:45:11 845] lgi        630  lgi_auth_id =  nil  
+[2021/07/29 10:45:11 845] config     91   select default  
+[2021/07/29 10:45:11 845] config     113  use general cloud  
+[2021/07/29 10:45:11 845] transport  645  paramkvsport is   0  
+[2021/07/29 10:45:11 845] transport  657  ns_enable=  1  
+[2021/07/29 10:45:11 845] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2021/07/29 10:45:11 845] transport  665  net.nettype=  unknown  
+[2021/07/29 10:45:11 845] transport  675  url.full=  nil  
+[2021/07/29 10:45:11 845] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2021/07/29 10:45:11 845] transport  907  net type:  unknown  
+[2021/07/29 10:45:11 845] transport  908  net operator:  def  
+[2021/07/29 10:45:11 845] transport  909  use proxy:  false  
+[2021/07/29 10:45:11 845] lgi        277  [session] send lgi request  
+[2021/07/29 10:45:11 845] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:45:11 845] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:45:11 845] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.34  
+[2021/07/29 10:45:11 845] transport  1159 using cached ip:  42.62.116.34  
+[2021/07/29 10:45:11 845] transport  1179 try preferred port:  80  
+[2021/07/29 10:45:11 845] transport  1083 NAMESERVER START  
+[2021/07/29 10:45:11 845] transport  1086 name =   ath  
+[2021/07/29 10:45:11 845] ns         634  ntt=  unknown  
+[2021/07/29 10:45:11 845] transport  1089 trans,ns_inprog =  0  
+[2021/07/29 10:45:11 845] ns         582  name server start  
+[2021/07/29 10:45:11 845] ns         588  ns_sub =   ath  
+[2021/07/29 10:45:11 845] ns         596  ns_host =   open.xf-yun.com  
+[2021/07/29 10:45:11 845] ns         475  ns_host=  open.xf-yun.com  
+[2021/07/29 10:45:11 845] ns         555  net_type =  standard  
+[2021/07/29 10:45:11 845] ns         556  cmwapascmnet =  
+[2021/07/29 10:45:11 845] ns         557  uniwapasuninet =  
+[2021/07/29 10:45:11 845] ns         558  ctwapasctnet =  
+[2021/07/29 10:45:11 845] ns         576  host=  hdns.xf-yun.com  
+[2021/07/29 10:45:11 845] network    263  gethostbyname  hdns.xf-yun.com  ns33  
+[2021/07/29 10:45:11 845] transport  1304 [soc] connect   42.62.116.34  80  
+[2021/07/29 10:45:11 845] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:45:11 884] lgi        244  lver:  nil  
+[2021/07/29 10:45:11 884] lgi        249  cfg_ver:  nil  
+[2021/07/29 10:45:11 884] transport  1860 transport_obj.send | in  
+[2021/07/29 10:45:11 884] transport  1866 self.msg_flag_q  table(4703dd8) 
+[2021/07/29 10:45:11 884] transport  1867 self.msg_q  table(4703e38) 
+[2021/07/29 10:45:11 884] transport  1799 transport_obj.try2send | in  
+[2021/07/29 10:45:11 884] transport  1800 self.soc  udata(4600ea0) 
+[2021/07/29 10:45:11 884] transport  1801 self.connected  false  
+[2021/07/29 10:45:11 884] transport  1802 self.latesterr  0  
+[2021/07/29 10:45:11 884] transport  1873 transport_obj.send | out  
+[2021/07/29 10:45:11 914] network    245  dns resp  0  ns33  
+[2021/07/29 10:45:11 914] ns         422  ns dns ok  42.62.116.35  
+[2021/07/29 10:45:11 914] ns         209  ip front is  42.62.116  
+[2021/07/29 10:45:11 914] ns         429  is_voicecloud_ip=  1  
+[2021/07/29 10:45:11 914] ns         436  ip_is_expected=  true  
+[2021/07/29 10:45:11 914] ns         444  ip_is_expected=  true  
+[2021/07/29 10:45:11 914] network    445  gethttpresp2  42.62.116.35  80  ns34  
+[2021/07/29 10:45:11 914] network    465  prot_type  tcp  
+[2021/07/29 10:45:12 000] transport  473  [soc] [3] connected  
+[2021/07/29 10:45:12 000] transport  1799 transport_obj.try2send | in  
+[2021/07/29 10:45:12 000] transport  1800 self.soc  udata(4600ea0) 
+[2021/07/29 10:45:12 005] transport  1801 self.connected  true  
+[2021/07/29 10:45:12 005] transport  1802 self.latesterr  0  
+[2021/07/29 10:45:12 005] transport  1819 transport:try2send,#msg_q=  1  
+[2021/07/29 10:45:12 005] transport  1359 build http request.  
+[2021/07/29 10:45:12 005] transport  1476 POST /msp.do HTTP/1.1
+Host: open.xf-yun.com
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 356
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:73
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E0%2E42%2E1226&key=08UiXGm^j92hM=
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ñ¾b<`úž‡~}y~~~‡{|xz2A`¡á¿¿`~¿ 3ê³8  
+[2021/07/29 10:45:12 009] transport  1819 transport:try2send,#msg_q=  0  
+[2021/07/29 10:45:12 009] transport  482  [soc] [3] send ok  529  
+[2021/07/29 10:45:12 009] transport  1799 transport_obj.try2send | in  
+[2021/07/29 10:45:12 009] transport  1800 self.soc  udata(4600ea0) 
+[2021/07/29 10:45:12 009] transport  1801 self.connected  true  
+[2021/07/29 10:45:12 009] transport  1802 self.latesterr  0  
+[2021/07/29 10:45:12 009] transport  1819 transport:try2send,#msg_q=  0  
+[2021/07/29 10:45:12 015] network    350  connected  ns34  
+[2021/07/29 10:45:12 022] network    353  send ok  268  ns34  
+[2021/07/29 10:45:12 115] transport  494  [soc] [3] readable  
+[2021/07/29 10:45:12 115] transport  1767 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 163
+X-Req-Date: 2021/07/29 10:45:09 597
+Cache-Control: no-cache
+CL: 163
+X-Res-Date: 2021/07/29 10:45:09 613
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E42%2E1226&uid=d16603379252&key=0blPk4WTpAQi6iBoOZjMxe1AeMuBRYohX5eyiziFcYXSK^^GHVr44O7LNHyK2Rukk4UUEflAKO4MhPt9ofqQ7s4k^32h^pDuzi  
+[2021/07/29 10:45:12 115] transport  1494 a_complete_httpmessage  200  
+[2021/07/29 10:45:12 115] transport  1604 is_update  false  
+[2021/07/29 10:45:12 115] lgi        105  [trans] [id = lgi_] readable  
+[2021/07/29 10:45:12 119] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.34  
+[2021/07/29 10:45:12 119] transport  981  cached ip is confirmed  
+[2021/07/29 10:45:12 119] transport  1332 [soc] disconnect   
+[2021/07/29 10:45:12 154] transport  991  transport clean  
+[2021/07/29 10:45:12 154] lgi        136  lgi resp!  
+[2021/07/29 10:45:12 154] lgi        143  lgi ok!  
+[2021/07/29 10:45:12 154] lgi        151  unkown  d16603379252  
+[2021/07/29 10:45:12 154] lgi        72   loginid =   1  d16603379252  
+[2021/07/29 10:45:12 154] lgi        75   notify_lgi_result, ret = 0  
+[2021/07/29 10:45:16 924] network    298  resp timeout!  ns34  
+[2021/07/29 10:45:16 944] ns         253  name server http resp  10114  
+[2021/07/29 10:45:16 944] ns         412  ns response failed, err =  10114  
+[2021/07/29 10:45:16 944] ns         114  ns_host=  open.xf-yun.com  
+[2021/07/29 10:45:16 944] ns         116  use default ip  
+[2021/07/29 10:45:16 944] ns         670  no data in ns_q  
+[2021/07/29 10:45:16 944] ns         671  conti_ns,ns_inprog =   1  
+============================================================
+Time  2021/07/29 10:45:53 403 
+============================================================
+[2021/07/29 10:45:53 403] lgi        684  SYS_MSG_LOAD  
+[2021/07/29 10:45:53 403] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(14d0d58) 
+[2021/07/29 10:45:53 403] lgi        298  LGI_MSG_INIT  
+[2021/07/29 10:45:53 403] lgi        305  lgi  lgi_  268436457  1552301824  
+[2021/07/29 10:45:53 403] lgi        347  work_dir  .  
+[2021/07/29 10:45:53 403] lgi        403  token:  nil  
+[2021/07/29 10:45:53 403] lgi        476  msc cver : 5.0.42.1226  
+[2021/07/29 10:45:53 413] lgi        519  ns_enable=  1  
+[2021/07/29 10:45:53 413] lgi        531  prot_ver=1  
+[2021/07/29 10:45:53 413] lgi        542  prot_type=tcp  
+[2021/07/29 10:45:53 413] lgi        693  SYS_MSG_UNLOAD  go bg!  

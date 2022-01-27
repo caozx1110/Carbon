@@ -1,0 +1,13 @@
+('c:\\users\\q7423\\anaconda3\\envs\\audio\\lib\\site-packages\\pyhook-1.5.1-py3.6-win-amd64.egg',
+ None,
+ {'*.pyw', '*.cp36-win_amd64.pyd', '*.pyd', '*.pyc', 'EGG-INFO', '*.py'},
+ 'DATA',
+ [('Lib\\site-packages\\pyHook\\CHANGELOG.txt',
+   'c:\\users\\q7423\\anaconda3\\envs\\audio\\lib\\site-packages\\pyhook-1.5.1-py3.6-win-amd64.egg\\Lib\\site-packages\\pyHook\\CHANGELOG.txt',
+   'DATA'),
+  ('Lib\\site-packages\\pyHook\\LICENSE.txt',
+   'c:\\users\\q7423\\anaconda3\\envs\\audio\\lib\\site-packages\\pyhook-1.5.1-py3.6-win-amd64.egg\\Lib\\site-packages\\pyHook\\LICENSE.txt',
+   'DATA'),
+  ('Lib\\site-packages\\pyHook\\README.txt',
+   'c:\\users\\q7423\\anaconda3\\envs\\audio\\lib\\site-packages\\pyhook-1.5.1-py3.6-win-amd64.egg\\Lib\\site-packages\\pyHook\\README.txt',
+   'DATA')])

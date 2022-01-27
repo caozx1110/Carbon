@@ -1,0 +1,89 @@
+============================================================
+Time  2021/07/29 10:45:11 845 
+============================================================
+[2021/07/29 10:45:11 845] isr_1conn  2226 SYS_MSG_LOAD_CLOUD  
+[2021/07/29 10:45:11 845] isr_1conn  2247 SYS_MSG_REGCB_CLOUD param0 =   msp_status_cb  param1 =  func(2e51008) 
+[2021/07/29 10:45:11 845] isr_1conn  2247 SYS_MSG_REGCB_CLOUD param0 =   cloud_rslt_cb  param1 =  func(2e51048) 
+[2021/07/29 10:45:11 845] isr_1conn  2247 SYS_MSG_REGCB_CLOUD param0 =   cloud_err_cb  param1 =  func(2e51208) 
+[2021/07/29 10:45:11 845] isr_1conn  2247 SYS_MSG_REGCB_CLOUD param0 =   cloud_status_cb  param1 =  func(2e51248) 
+[2021/07/29 10:45:11 845] isr_1conn  1411 onesoc  
+[2021/07/29 10:45:11 845] isr_1conn  1412 ASR_CLOUD_MSG_SSB  
+[2021/07/29 10:45:11 845] isr_1conn  1427 isr_1conn  cloud_cisr1PdHHBHJmJN8y3j4awwVKBkP5TmP40  268436457  1552301827  
+[2021/07/29 10:45:11 845] isr_1conn  1497 req_lgi_id =  d16603379252@316e9b7a  
+[2021/07/29 10:45:11 845] isr_1conn  1631 nil  
+[2021/07/29 10:45:11 845] isr_1conn  1697 speex-wb  
+[2021/07/29 10:45:11 845] isr_1conn  1785 net_once_bytes  nil  
+[2021/07/29 10:45:11 845] isr_1conn  1790 need_encode  true  
+[2021/07/29 10:45:11 845] isr_1conn  1792 once bytes  122  
+[2021/07/29 10:45:11 845] isr_1conn  1816 User set url is   nil  
+[2021/07/29 10:45:11 845] config     91   select default  
+[2021/07/29 10:45:11 845] config     113  use general cloud  
+[2021/07/29 10:45:11 845] transport  645  paramkvsport is   nil  
+[2021/07/29 10:45:11 845] transport  657  ns_enable=  1  
+[2021/07/29 10:45:11 845] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2021/07/29 10:45:11 845] transport  665  net.nettype=  unknown  
+[2021/07/29 10:45:11 845] transport  675  url.full=  nil  
+[2021/07/29 10:45:11 845] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2021/07/29 10:45:11 845] transport  907  net type:  unknown  
+[2021/07/29 10:45:11 845] transport  908  net operator:  def  
+[2021/07/29 10:45:11 845] transport  909  use proxy:  false  
+[2021/07/29 10:45:11 845] transport  1105 session.domain=  open.xf-yun.com  
+[2021/07/29 10:45:11 845] transport  1106 url.host=  open.xf-yun.com  
+[2021/07/29 10:45:11 845] transport  1148 using nameserver ip:  42.62.116.18  
+[2021/07/29 10:45:11 845] transport  1179 try preferred port:  80  
+[2021/07/29 10:45:11 845] transport  1304 [soc] connect   42.62.116.18  80  
+[2021/07/29 10:45:11 845] transport  1316 mspsoc.open,prot_type=  tcp  
+[2021/07/29 10:45:11 864] isr_1conn  1843 ASR_CLOUD_MSG_AUW  0  4  
+[2021/07/29 10:45:11 864] isr_1conn  1897 starttimer status_cb_timeout, timeout is:  3000  
+[2021/07/29 10:45:11 864] isr_1conn  1906 audio len:  0  
+[2021/07/29 10:45:11 934] transport  473  [soc] [1] connected  
+[2021/07/29 10:45:11 934] isr_1conn  367  transport connect ok  
+[2021/07/29 10:45:11 934] isr_1conn  1118 send ssb request  
+[2021/07/29 10:45:11 934] isr_1conn  806  using loginid  
+[2021/07/29 10:45:11 934] isr_1conn  833  lver:  nil  
+[2021/07/29 10:45:11 934] isr_1conn  838  cfg_ver:  nil  
+[2021/07/29 10:45:11 934] transport  1860 transport_obj.send | in  
+[2021/07/29 10:45:11 934] transport  1866 self.msg_flag_q  table(462b8d8) 
+[2021/07/29 10:45:11 934] transport  1867 self.msg_q  table(462bd28) 
+[2021/07/29 10:45:11 934] transport  1799 transport_obj.try2send | in  
+[2021/07/29 10:45:11 934] transport  1800 self.soc  udata(46026f8) 
+[2021/07/29 10:45:11 934] transport  1801 self.connected  false  
+[2021/07/29 10:45:11 934] transport  1802 self.latesterr  0  
+[2021/07/29 10:45:11 934] transport  1873 transport_obj.send | out  
+[2021/07/29 10:45:11 934] isr_1conn  1173 no_audio is true  
+[2021/07/29 10:45:11 934] transport  1799 transport_obj.try2send | in  
+[2021/07/29 10:45:11 934] transport  1800 self.soc  udata(46026f8) 
+[2021/07/29 10:45:11 934] transport  1801 self.connected  true  
+[2021/07/29 10:45:11 934] transport  1802 self.latesterr  0  
+[2021/07/29 10:45:11 934] transport  1819 transport:try2send,#msg_q=  1  
+[2021/07/29 10:45:11 934] transport  1359 build http request.  
+[2021/07/29 10:45:11 940] transport  1476 POST /msp.do HTTP/1.1
+Host: open.xf-yun.com
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 466
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:220
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=iat&cmd=ssb&ssm=1&auf=audio%2FL16%3Brate%3D16000&cver=5%2E0%2E42%2E1226&net%5Ftype=unknown&csid=cisr1PdHHBHJmJN8y3j4awwVKBkP5TmP40&key=0ekT/KgQg8uemIQh5DthSN34rObdJ9AAhm6UvLIBsx9MhzTMirmS8ZG^lLyyAbMfTI
+----
+CL:152
+CT:text/params
+CE:gzip,encrypt/0.2
+
+ùHïüöÁé©n¦TtàûB*7?‘ÔcÕYR­>o-~–Ç†·ßSœ|âºYê§¨3BÄª<W—#ý	åø‡°T6–0’`Õ^QÉõx*™WrW:¥û|¥r8xð®Ü=W.;°žsØ¬¯úw½¤¼.lðÒ*‡“Mé/V
+üg­}{qé²~˜u¡‡*‰cã`R¨“  
+[2021/07/29 10:45:11 940] transport  1819 transport:try2send,#msg_q=  0  
+[2021/07/29 10:45:11 940] transport  482  [soc] [1] send ok  639  
+[2021/07/29 10:45:11 940] transport  1799 transport_obj.try2send | in  
+[2021/07/29 10:45:11 940] transport  1800 self.soc  udata(46026f8) 
+[2021/07/29 10:45:11 944] transport  1801 self.connected  true  
+[2021/07/29 10:45:11 944] transport  1802 self.latesterr  0  
+[2021/07/29 10:45:11 944] transport  1819 transport:try2send,#msg_q=  0  
+[2021/07/29 10:45:11 980] isr_1conn  2052 ASR_CLOUD_MSG_SSE  
+[2021/07/29 10:45:11 990] isr_1conn  1276 isr_1conn session info  
+[2021/07/29 10:45:11 993] isr_1conn  2195 session finished! ret =   10118  

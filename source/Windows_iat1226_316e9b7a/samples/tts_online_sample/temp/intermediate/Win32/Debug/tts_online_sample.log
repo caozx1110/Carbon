@@ -1,0 +1,9 @@
+﻿  找不到 C:\Users\q7423\Desktop\doing\Windows_iat1226_316e9b7a\bin\tts_online_sample.exe
+  找不到 C:\Users\q7423\Desktop\doing\Windows_iat1226_316e9b7a\samples\tts_online_sample\temp\output\Win32\Debug\msc.dll
+  已复制         1 个文件。
+cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  tts_online_sample.c
+C:\Users\q7423\Desktop\doing\Windows_iat1226_316e9b7a\samples\tts_online_sample\tts_online_sample.c(75,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+tts_online_sample.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  tts_online_sample.vcxproj -> C:\Users\q7423\Desktop\doing\Windows_iat1226_316e9b7a\samples\tts_online_sample\temp\output\Win32\Debug\tts_online_sample.exe
+  已复制         1 个文件。
